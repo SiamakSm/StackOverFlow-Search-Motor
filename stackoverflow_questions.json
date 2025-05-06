@@ -15,7 +15,7 @@
             "link": "https://stackoverflow.com/users/878582/dalestan"
         },
         "is_answered": true,
-        "view_count": 850,
+        "view_count": 852,
         "accepted_answer_id": 79505865,
         "answer_count": 1,
         "score": 16,
@@ -104,7 +104,7 @@
             "link": "https://stackoverflow.com/users/9061264/mike"
         },
         "is_answered": true,
-        "view_count": 109,
+        "view_count": 110,
         "accepted_answer_id": 79506865,
         "answer_count": 1,
         "score": 5,
@@ -236,35 +236,6 @@
     {
         "tags": [
             "c#",
-            ".net"
-        ],
-        "owner": {
-            "account_id": 10542498,
-            "reputation": 143,
-            "user_id": 7767987,
-            "user_type": "registered",
-            "profile_image": "https://www.gravatar.com/avatar/ae84104b6b3eb658846fd037350f71b2?s=256&d=identicon&r=PG&f=y&so-version=2",
-            "display_name": "Matt",
-            "link": "https://stackoverflow.com/users/7767987/matt"
-        },
-        "is_answered": true,
-        "view_count": 120,
-        "closed_date": 1741788832,
-        "accepted_answer_id": 79503832,
-        "answer_count": 2,
-        "score": 3,
-        "last_activity_date": 1741793616,
-        "creation_date": 1741786686,
-        "last_edit_date": 1741787666,
-        "question_id": 79503775,
-        "link": "https://stackoverflow.com/questions/79503775/why-can-spant-exceed-the-size-of-the-stack",
-        "closed_reason": "Duplicate",
-        "title": "Why Can Span&lt;T&gt; Exceed the Size of the Stack?",
-        "body": "<p>Per the C# <a href=\"https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-span%7Bt%7D\" rel=\"nofollow noreferrer\">documentation</a> and <a href=\"https://learn.microsoft.com/en-us/archive/msdn-magazine/2018/january/csharp-all-about-span-exploring-a-new-net-mainstay\" rel=\"nofollow noreferrer\">this article</a>, a <code>Span&lt;T&gt;</code> is restricted from the heap and can only exist on the stack. However, its maximum length is <code>2^32</code> which is somewhere around 4 Gigabytes of data. According to everything that I've read, <strong>Windows has a stack limit of only 1MB</strong>. How does this work then? Does the compiler dynamically alter the size of the stack when a <code>Span&lt;T&gt;</code> of this size is created?</p>\n<p>Also, are there any performance downsides to using a Span with such a large buffer? Would it instead be better to use a different object?</p>\n<p>This is probably a stupid/repeat question, but I cannot seem to find a satisfying answer and would greatly appreciate any feedback that can be provided.</p>\n"
-    },
-    {
-        "tags": [
-            "c#",
             "ios",
             "iphone",
             "xaml",
@@ -280,7 +251,7 @@
             "link": "https://stackoverflow.com/users/8428634/crazyeight"
         },
         "is_answered": false,
-        "view_count": 95,
+        "view_count": 96,
         "answer_count": 3,
         "score": 3,
         "last_activity_date": 1741877588,
@@ -596,7 +567,7 @@
             "link": "https://stackoverflow.com/users/29971545/albert-blarer"
         },
         "is_answered": false,
-        "view_count": 37,
+        "view_count": 38,
         "answer_count": 1,
         "score": 3,
         "last_activity_date": 1742036350,
@@ -734,7 +705,7 @@
             "link": "https://stackoverflow.com/users/7806228/laura"
         },
         "is_answered": true,
-        "view_count": 51,
+        "view_count": 52,
         "answer_count": 1,
         "score": 3,
         "last_activity_date": 1742039023,
@@ -793,7 +764,7 @@
             "link": "https://stackoverflow.com/users/2827654/jamshidh"
         },
         "is_answered": false,
-        "view_count": 31,
+        "view_count": 33,
         "answer_count": 0,
         "score": 3,
         "last_activity_date": 1742007360,
@@ -806,58 +777,56 @@
     },
     {
         "tags": [
-            "file",
-            "io",
-            "basic",
-            "freebasic"
+            "c++",
+            "namespaces"
         ],
         "owner": {
-            "account_id": 20279113,
-            "reputation": 21,
-            "user_id": 14873352,
+            "account_id": 421544,
+            "reputation": 3770,
+            "user_id": 799849,
             "user_type": "registered",
-            "profile_image": "https://www.gravatar.com/avatar/043b39ee9e2df83bead5088e04026c92?s=256&d=identicon&r=PG",
-            "display_name": "Jean Dubois",
-            "link": "https://stackoverflow.com/users/14873352/jean-dubois"
+            "accept_rate": 80,
+            "profile_image": "https://www.gravatar.com/avatar/c2a64fda2c076abba0de85a650e7a8e3?s=256&d=identicon&r=PG",
+            "display_name": "eyelash",
+            "link": "https://stackoverflow.com/users/799849/eyelash"
         },
         "is_answered": false,
-        "view_count": 35,
+        "view_count": 51,
         "answer_count": 0,
-        "score": 2,
-        "last_activity_date": 1741788043,
-        "creation_date": 1741788043,
-        "question_id": 79503835,
+        "score": 3,
+        "last_activity_date": 1742035967,
+        "creation_date": 1742035967,
+        "question_id": 79510995,
         "content_license": "CC BY-SA 4.0",
-        "link": "https://stackoverflow.com/questions/79503835/why-is-my-file-deleting-itself-when-i-open-it",
-        "title": "Why is my file deleting itself when I open it?",
-        "body": "<p>I’m currently learning BASIC (I use FreeBASIC) and I’m trying to open files. However, instead of opening files, my program deletes them. This is my code:</p>\n<pre class=\"lang-none prettyprint-override\"><code>Dim f as Integer\n\nf = FreeFile\n\nOpen &quot;myfile&quot; For Input Access Read As #f\nIf Err &gt; 0 Then Print &quot;Error opening the file. Error code:&quot; ; Err : End\n\nClose #f\nEnd\n</code></pre>\n<p>When executing the code, <code>myfile</code> vanishes, the <code>Error opening the file</code> message prints and the error code is 0.</p>\n<p>I tried with and without <code>Access Read</code>; and I tried different other things than <code>Input</code> (I tried <code>Binary</code> and <code>Random</code> for instance). I also tried another dialect (<code>-lang fblite</code>). None of this fixes the problem.</p>\n<p>What am I doing wrong?</p>\n<p>Some more infos:</p>\n<ul>\n<li>Compiler: FreeBASIC version 1.10.1 (2024-01-06)</li>\n<li>OS: Arch GNU/Linux (kernel version 6.13.5)</li>\n</ul>\n"
+        "link": "https://stackoverflow.com/questions/79510995/no-matching-function-call-error-when-introducing-a-namespace",
+        "title": "no matching function call error when introducing a namespace",
+        "body": "<p>The following code works as expected:</p>\n<pre><code>template &lt;int N&gt; struct Int {\n    constexpr auto dec() const -&gt; Int&lt;N - 1&gt; {\n        return {};\n    }\n    constexpr operator int() const {\n        return N;\n    }\n};\n\nconstexpr auto fib(Int&lt;0&gt;) -&gt; Int&lt;0&gt; {\n    return {};\n}\ntemplate &lt;int N&gt; constexpr auto fib(Int&lt;N&gt; n) -&gt; decltype(fib(n.dec())) {\n    return {};\n}\n\nstatic_assert(fib(Int&lt;2&gt;()) == 0);\n</code></pre>\n<p>However, if I introduce a namespace for <code>Int</code>, it suddenly fails on both <a href=\"https://godbolt.org/z/P7EeE4EYT\" rel=\"nofollow noreferrer\">GCC</a> and <a href=\"https://godbolt.org/z/4TYPon399\" rel=\"nofollow noreferrer\">Clang</a>:</p>\n<pre><code>namespace foo {\n    template &lt;int N&gt; struct Int {\n        constexpr auto dec() const -&gt; Int&lt;N - 1&gt; {\n            return {};\n        }\n        constexpr operator int() const {\n            return N;\n        }\n    };\n}\n\ntemplate &lt;int N&gt; using Int = foo::Int&lt;N&gt;;\n\nconstexpr auto fib(Int&lt;0&gt;) -&gt; Int&lt;0&gt; {\n    return {};\n}\ntemplate &lt;int N&gt; constexpr auto fib(Int&lt;N&gt; n) -&gt; decltype(fib(n.dec())) {\n    return {};\n}\n\nstatic_assert(fib(Int&lt;2&gt;()) == 0);\n</code></pre>\n<p>With the following error message:</p>\n<pre><code>&lt;source&gt;:21:15: error: no matching function for call to 'fib'\n   21 | static_assert(fib(Int&lt;2&gt;()) == 0);\n      |               ^~~\n&lt;source&gt;:14:16: note: candidate function not viable: no known conversion from 'Int&lt;2&gt;' to 'Int&lt;0&gt;' for 1st argument\n   14 | constexpr auto fib(Int&lt;0&gt;) -&gt; Int&lt;0&gt; {\n      |                ^   ~~~~~~\n&lt;source&gt;:17:33: note: candidate template ignored: substitution failure [with N = 2]: call to function 'fib' that is neither visible in the template definition nor found by argument-dependent lookup\n   17 | template &lt;int N&gt; constexpr auto fib(Int&lt;N&gt; n) -&gt; decltype(fib(n.dec())) {\n      |                                 ^                         ~~~\n</code></pre>\n<p>Can someone explain what is going on here? Why does introducing a namespace create a compiler error?</p>\n"
     },
     {
         "tags": [
-            "r"
+            "rust"
         ],
         "owner": {
-            "account_id": 39491443,
-            "reputation": 23,
-            "user_id": 29302546,
+            "account_id": 34743063,
+            "reputation": 53,
+            "user_id": 26747139,
             "user_type": "registered",
-            "profile_image": "https://www.gravatar.com/avatar/f5c458cbb4c5c0538ffa325df509b367?s=256&d=identicon&r=PG&f=y&so-version=2",
-            "display_name": "shrimp",
-            "link": "https://stackoverflow.com/users/29302546/shrimp"
+            "profile_image": "https://www.gravatar.com/avatar/0b78fd7a18bff2d42b3f7c92092f3553?s=256&d=identicon&r=PG&f=y&so-version=2",
+            "display_name": "Tudor",
+            "link": "https://stackoverflow.com/users/26747139/tudor"
         },
-        "is_answered": true,
-        "view_count": 100,
-        "accepted_answer_id": 79503877,
-        "answer_count": 2,
-        "score": 2,
-        "last_activity_date": 1741885640,
-        "creation_date": 1741788309,
-        "last_edit_date": 1741878977,
-        "question_id": 79503843,
+        "is_answered": false,
+        "view_count": 23,
+        "answer_count": 0,
+        "score": 3,
+        "last_activity_date": 1742045484,
+        "creation_date": 1742043941,
+        "last_edit_date": 1742045484,
+        "question_id": 79511161,
         "content_license": "CC BY-SA 4.0",
-        "link": "https://stackoverflow.com/questions/79503843/is-there-another-way-to-make-a-time-ceiling-other-than-lubridate",
-        "title": "Is there another way to make a time ceiling other than Lubridate?",
-        "body": "<p>I'm processing data that I need to group into half hour time periods, which I've been doing by creating a time ceiling so that the timestamps are rounded up to the next half hour. I've been using the Lubridate package for this; however, since my dataset has around 200,000 observations, it takes a very long time to run.</p>\n<p>I'm wondering if there are any functions or packages that can create a time ceiling without taking so long. I've looked around the internet and every source just says to use Lubridate.</p>\n<p>Below is the code that I'm using to create the date ceiling. I'm not sure if providing sample data will be helpful since the trouble comes with the size of the dataset (the code itself runs perfectly well, just slowly).</p>\n<pre><code>  Twr2CowDist1&lt;-Twr2CowDist%&gt;%\n  mutate(Round=ceiling_date(ymd_hms(DateTime), &quot;30 minutes&quot;))\n</code></pre>\n<p>Edit: I <em>am</em> using rowwise earlier in the code, so that might be the cause for the slowdown, and by &quot;slow&quot;, I mean around 15-20 minutes to run the couple lines of code.</p>\n"
+        "link": "https://stackoverflow.com/questions/79511161/my-struct-has-a-field-implementing-a-generic-trait-gt-but-it-has-no-fields-us",
+        "title": "My struct has a field implementing a generic trait G&lt;T&gt;, but it has no fields using T directly. Is this a legitimate use of PhantomData?",
+        "body": "<p>I have a struct <code>Foo</code> which a field of some type implementing a generic trait G, but I can't refer to this trait unless I also bind a type T, but then this leads to a compiler error:</p>\n<blockquote>\n<p>type parameter <code>T</code> is never used. consider removing <code>T</code>, referring to it in a field, or using a marker such as <code>std::marker::PhantomData</code></p>\n</blockquote>\n<pre><code>trait Trait {}\ntrait GenericTrait&lt;T: Trait&gt; {}\n\nstruct Foo&lt;T, G&gt;\nwhere\n    T: Trait,\n    G: GenericTrait&lt;T&gt;,\n{\n    t: G,\n}\n\n</code></pre>\n<p>This can be solved by adding a PhantomData for T:</p>\n<pre><code>trait Trait {}\ntrait GenericTrait&lt;T: Trait&gt; {}\n\nstruct Foo&lt;T, G&gt;\nwhere\n    T: Trait,\n    G: GenericTrait&lt;T&gt;,\n{\n    t: G,\n    phantom: PhantomData&lt;T&gt;,\n}\n</code></pre>\n<p>But this feels like tricking the compiler, and I'm wondering if there isn't a simpler solution that I'm missing here.</p>\n<p>I've also considered to remove the bounds from the struct, but then I run into an error when trying to write an <code>impl</code> block:</p>\n<pre><code>trait Trait {}\ntrait GenericTrait&lt;T: Trait&gt; {}\n\nstruct Foo&lt;G&gt; {\n    t: G,\n}\nimpl&lt;T: Trait, G: GenericTrait&lt;T&gt;&gt; Foo&lt;G&gt; {}\n</code></pre>\n<p>This doesn't compile because the parameter <code>T</code> is not used in the declaration.</p>\n"
     },
     {
         "tags": [
@@ -2074,7 +2043,7 @@
             "link": "https://stackoverflow.com/users/3728045/sigil"
         },
         "is_answered": true,
-        "view_count": 50,
+        "view_count": 51,
         "accepted_answer_id": 79507621,
         "answer_count": 1,
         "score": 2,
@@ -2104,7 +2073,7 @@
             "link": "https://stackoverflow.com/users/19438412/antonkal"
         },
         "is_answered": true,
-        "view_count": 126,
+        "view_count": 127,
         "answer_count": 3,
         "score": 2,
         "last_activity_date": 1741915053,
@@ -2498,7 +2467,7 @@
             "link": "https://stackoverflow.com/users/9354476/syed-waris"
         },
         "is_answered": false,
-        "view_count": 63,
+        "view_count": 64,
         "answer_count": 2,
         "score": 2,
         "last_activity_date": 1742031974,
@@ -2732,7 +2701,7 @@
             "link": "https://stackoverflow.com/users/13627106/7minutesdead"
         },
         "is_answered": false,
-        "view_count": 31,
+        "view_count": 32,
         "answer_count": 0,
         "score": 2,
         "last_activity_date": 1742001208,
@@ -2786,7 +2755,7 @@
             "link": "https://stackoverflow.com/users/29975284/moody"
         },
         "is_answered": true,
-        "view_count": 45,
+        "view_count": 46,
         "answer_count": 1,
         "score": 2,
         "last_activity_date": 1742034697,
@@ -2850,5 +2819,35 @@
         "link": "https://stackoverflow.com/questions/79509468/how-to-delete-onetoonefield-of-a-model-class-in-django",
         "title": "how to delete OneToOneField of a model class in django",
         "body": "<p>in my django app student_management_system, Student is connected to User by OneToOneField. if i delete a Student it gets deleted, but User (django's built in User) is not getting deleted,  it still exists in database,  ie. in auth_user of db.sqlite3. how to fix this. github code: <a href=\"https://github.com/anup30/student_management_system\" rel=\"nofollow noreferrer\">https://github.com/anup30/student_management_system</a> the problem is also written in problem.txt there.</p>\n"
+    },
+    {
+        "tags": [
+            "r",
+            "ggplot2",
+            "fonts",
+            "ggfittext"
+        ],
+        "owner": {
+            "account_id": 2831794,
+            "reputation": 1165,
+            "user_id": 2433233,
+            "user_type": "registered",
+            "accept_rate": 80,
+            "profile_image": "https://www.gravatar.com/avatar/731087fb3496f8746f4591cb0137212b?s=256&d=identicon&r=PG&f=y&so-version=2",
+            "display_name": "swolf",
+            "link": "https://stackoverflow.com/users/2433233/swolf"
+        },
+        "is_answered": true,
+        "view_count": 27,
+        "accepted_answer_id": 79509540,
+        "answer_count": 1,
+        "score": 2,
+        "last_activity_date": 1741966662,
+        "creation_date": 1741964877,
+        "question_id": 79509471,
+        "content_license": "CC BY-SA 4.0",
+        "link": "https://stackoverflow.com/questions/79509471/ggfittextgeom-bar-text-does-not-place-text-in-centre-when-fontface-bold-is",
+        "title": "ggfittext::geom_bar_text does not place text in centre when fontface = &quot;bold&quot; is involved, also values are mixed up",
+        "body": "<p>I want to use <code>ggfittext::geom_bar_text()</code> to plot values into a horizontal stacked bar plot with a certain value in bold font. There is a <code>fontface</code> aesthetic available. The problem is: As soon as I use a <code>bold</code> fontface, the labels are not centered anymore <em>and</em> the values get mixed up.</p>\n<p>Please have a look at this MRE:</p>\n<pre><code>library(ggplot2)\nlibrary(ggfittext)\nlibrary(scales)\n</code></pre>\n<p>This is the case <em>without</em> any bold labels:</p>\n<pre><code>df2 &lt;- data.frame(cat1 = rep(c(&quot;A&quot;, &quot;B&quot;, &quot;C&quot;), each = 3),\n                 cat2 = rep(c(&quot;D&quot;, &quot;E&quot;, &quot;F&quot;), 3),\n                 perc = c(0, .6, .4,\n                          .26, .24, .5,\n                          .3, .3, .4),\n                 fface = &quot;plain&quot;)\n\nggplot(df2, aes(y = cat1, fill = cat2, x = perc, fontface = fface)) +\n  geom_col() +\n  geom_bar_text(aes(label = percent(perc, accuracy = .1),\n                    fontface = fface),\n                position = &quot;stack&quot;, place = &quot;centre&quot;)\n</code></pre>\n<p><a href=\"https://i.sstatic.net/lG1bk169.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/lG1bk169.png\" alt=\"correct plot\" /></a></p>\n<p>Now for the problematic case:</p>\n<pre><code>df &lt;- data.frame(cat1 = rep(c(&quot;A&quot;, &quot;B&quot;, &quot;C&quot;), each = 3),\n                 cat2 = rep(c(&quot;D&quot;, &quot;E&quot;, &quot;F&quot;), 3),\n                 perc = c(0, .6, .4,\n                          .26, .24, .5,\n                          .3, .3, .4),\n                 fface = c(&quot;plain&quot;, &quot;bold&quot;, &quot;plain&quot;,\n                           &quot;bold&quot;, &quot;plain&quot;, &quot;plain&quot;,\n                           &quot;plain&quot;, &quot;plain&quot;, &quot;bold&quot;))\n\nggplot(df, aes(y = cat1, fill = cat2, x = perc, fontface = fface)) +\n  geom_col() +\n  geom_bar_text(aes(label = percent(perc, accuracy = .1),\n                    fontface = fface),\n                position = &quot;stack&quot;, place = &quot;centre&quot;)\n</code></pre>\n<p><a href=\"https://i.sstatic.net/82jsy6DT.png\" rel=\"nofollow noreferrer\"><img src=\"https://i.sstatic.net/82jsy6DT.png\" alt=\"incorrect plot\" /></a></p>\n<p>What is happening? <code>df</code> is exactly identical except for the three bold cases in column <code>fface</code> and the <code>ggplot()</code> calls are also exactly identical. But the labels for <code>cat1 == &quot;C&quot;</code> are off and they are switched, too.</p>\n<p>Am I missing something? Is this a bug? Thank you for your help!</p>\n"
     }
 ]
