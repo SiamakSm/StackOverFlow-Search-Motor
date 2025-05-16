@@ -163,4 +163,55 @@ class CorpusC:
     def wordsFrequency(self):
         print("📂 Calculate des frecuancy des mots")
         wordFrec(self)
+    
+      
+         
+class SearchEngine:
+    def __init__(self, json_path='tokenized.json'):
+        self.data = self._load_json(json_path)
+        self.doc_ids = [q["question_id"] for q in self.data]
+        self.docs = [self._build_full_text(q) for q in self.data]
         
+        self.docs = [doc.split() for doc in self.docs]
+        self.vocab = self._build_vocab()
+        #self.tf = self._compute_tf()
+        #self.idf = self._compute_idf()
+        #self.tfidf = self.tf * self.idf
+        #self.doc_norms = self._compute_norms(self.tfidf)
+
+    def _load_json(self, path):
+        with open(path, 'r', encoding='utf-8') as file:
+            return json.load(file)
+
+    def _build_full_text(self, question):
+        return question["text"] + " " + " ".join(question["tags"] * 2)
+    
+    def _build_vocab(self):
+        vocabv = {}
+        index = 0
+        
+        
+
+    #    self.vocab = self._vocabulary()
+    #    self.tf = self._TF_Matrix()
+    #    self.idf = self._IDF_Matrix()
+    #    self.tfidf = self._TFxIDF_Matrix()
+    #    self.doc_norms = self._compute_norms(self.tfidf)      ###############################
+    
+    def loadDocForSearch(self):
+        corpus = []
+        with open('tokenized.json', 'r', encoding='utf-8') as file:
+            tokenizedData = json.load(file)
+        for question in tokenizedData:
+            fullText = question["text"] + " ".join(question["tags"] * 2)
+            corpus.append(fullText)
+        return corpus
+    def loadIdForSearch(self):
+        ids = []   
+        with open('tokenized.json', 'r', encoding='utf-8') as file:
+            tokenizedData = json.load(file)
+        for question in tokenizedData:
+            ids.append(question["question_id"])
+        return ids    
+    def _vocabulary(self):
+        vocab = {}
