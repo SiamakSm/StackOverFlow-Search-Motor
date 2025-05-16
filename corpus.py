@@ -12,6 +12,7 @@ import numpy as np
 today = datetime.today()
 last_month = today - timedelta(days=3)
 from_date = int(last_month.timestamp())
+IGNORED_TOKENS = {"NUM", "LINK", "CODEBLOCK"}
 
 
 class CorpusC:
@@ -175,6 +176,7 @@ class SearchEngine:
         
         self.docs = [doc.split() for doc in self.docs]
         self.vocab = self._build_vocab()
+        print(self.vocab)
         self.tf = self._TF_Matrix()
         self.idf = self._IDF_Matrix()
         self.tfidf = self.tf * self.idf
@@ -193,16 +195,19 @@ class SearchEngine:
         index = 0
         for doc in self.docs :
             for word in doc :
-                if word not in vocab:
-                    vocab[word] = index
-                    index += 1
+                if word not in IGNORED_TOKENS :
+                    word = word.lower()
+                    if word not in vocab :
+                        vocab[word] = index
+                        index += 1
         return vocab
                 
     def _TF_Matrix(self):
         tf = np.zeros((len(self.docs), len(self.vocab)))
         for i , doc in enumerate(self.docs):
             for word in doc :
-                tf[i , self.vocab[word]] += 1
+                if word in self.vocab:
+                    tf[i , self.vocab[word]] += 1
         return tf          
        
     def _IDF_Matrix(self):
@@ -218,7 +223,7 @@ class SearchEngine:
         return np.linalg.norm(matrix,axis=1)
         
     def _vectorise_query(self,query):
-        tokens = query.split()
+        tokens = query.lower().split()
         vec = np.zeros(len(self.vocab))
         for token in tokens :
             if token in self.vocab :
@@ -233,5 +238,6 @@ class SearchEngine:
             dot_product = np.dot(query_vec, doc_vec)
             denom = query_norm * self.doc_norms[i]
             score = dot_product / denom if denom != 0 else 0.0
-            similarities.append((self.doc_ids[i], score))           
-        return similarities
+            similarities.append((self.doc_ids[i], score))
+        similarities.sort(key=lambda x: x[1], reverse=True)
+        return [(doc_id, score) for doc_id, score in similarities if score > 0]

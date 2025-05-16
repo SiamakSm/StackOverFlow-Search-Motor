@@ -37,21 +37,26 @@ def main():
     #print("-------------------------------------------------------------")
     #print("-----------------    get_question_by_id    -----------------\n")
     #corpusObjet.get_question_by_id(79455901)
-    #print("-------------------------------------------------------------")
-    #print("-----------------    get_question_by_tags    -----------------\n")
-    #corpusObjet.get_question_by_tags("python")
-    #print("-------------------------------------------------------------")
-    #print("-----------------    get_top_tags    -----------------\n")
-    #corpusObjet.get_top_tags(5)
+    print("-------------------------------------------------------------")
+    print("-----------------    get_question_by_tags    -----------------\n")
+    corpusObjet.get_question_by_tags("c++")
+    print("-------------------------------------------------------------")
+    print("-----------------    get_top_tags    -----------------\n")
+    corpusObjet.get_top_tags(5)
     #print("-------------------------------------------------------------")
     #print("-----------------    deep_clean    -----------------\n")
     #corpusObjet.deep_clean(True)
-    #print("-------------------------------------------------------------")
-    #print("-----------------    wordsFrequency    -----------------\n")
-    #corpusObjet.wordsFrequency()
+    print("-------------------------------------------------------------")
+    print("-----------------    wordsFrequency    -----------------\n")
+    corpusObjet.wordsFrequency()
     print("-------------------------------------------------------------")
     print("-----------------    SearchEngine    -----------------\n")
-    print(motorObjet._search("Python dataframe"))
+    results = motorObjet._search("library making list")
+    for doc_id, score in results:
+        print(f"Document ID: {doc_id} → Similarité : {score:.3f}")
+    
+    
+    
     
 if __name__ == "__main__":
     main()
