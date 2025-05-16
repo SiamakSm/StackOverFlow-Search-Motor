@@ -176,7 +176,7 @@ class SearchEngine:
         
         self.docs = [doc.split() for doc in self.docs]
         self.vocab = self._build_vocab()
-        print(self.vocab)
+        #print(self.vocab)
         self.tf = self._TF_Matrix()
         self.idf = self._IDF_Matrix()
         self.tfidf = self.tf * self.idf

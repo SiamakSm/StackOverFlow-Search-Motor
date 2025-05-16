@@ -1,518 +1,1016 @@
 [
     {
         "index": 1,
-        "question_id": 79607696,
-        "text": "C++ operator overloading code work clang gcc msvc C++ NUM recently encountered interesting C++ code example compiles clang std NUM fails gcc msvc code involves operator overloading friend function declarations code example CODEBLOCK compiler behavior clang NUM NUM NUM works std NUM gcc NUM NUM fails error operator declared msvc NUM NUM similar failure gcc error CODEBLOCK workaround swapping order operator declarations inside class makes work CODEBLOCK",
+        "question_id": 79621642,
+        "text": "implicit conversion std optional guaranteed use move constructor following code block illustrates difference returning CODEBLOCK via implicit conversion CODEBLOCK explicit construction CODEBLOCK specifically implicit conversion lvalue invokes move constructor whereas explicit construction invokes copy constructor legal move constructor used situation use move constructor guaranteed situation CODEBLOCK",
         "tags": [
             "c++",
-            "g++",
-            "language-lawyer",
-            "clang++"
+            "move-constructor",
+            "stdoptional"
         ]
     },
     {
         "index": 2,
-        "question_id": 79606814,
-        "text": "C++ class multiple inheritance covariant return types trying understand compile error latest version error occurs class inherits two base classes includes virtual function overrides functions base classes different return type code compiles executes correctly clang would like know error bug simple workaround preserves intent code example code error message CODEBLOCK error messages CODEBLOCK",
+        "question_id": 79620436,
+        "text": "combining fold expressions lambdas C++ NUM class derived variadic template parameter derived class base classes method signature return type method object pointer would like call method base class using fold expression way return value fold expression return value method belongs certain base class type CODEBLOCK base type present variadic template parameter following working code illustrates returning non null pointer CODEBLOCK base one template parameters CODEBLOCK case CODEBLOCK called templates CODEBLOCK compile CODEBLOCK notice used lambda CODEBLOCK method derived class better shorter syntax CODEBLOCK potentially one use lambda call",
         "tags": [
             "c++",
-            "visual-c++",
-            "multiple-inheritance",
-            "virtual-functions"
+            "c++17",
+            "fold-expression"
         ]
     },
     {
         "index": 3,
-        "question_id": 79607928,
-        "text": "strictly speaking scope label name starts ends NUM final draft NUM document NUM paragraph NUM NUM NUM defines label name type identifier NUM paragraph NUM NUM NUM says label name kind identifier function scope used goto statement anywhere function appears declared implicitly syntactic appearance followed statement NUM paragraph NUM NUM NUM says except struct tag union tag enumeration tag enumeration constant identifier scope begins completion declarator find conflicting say scope label name starts start function body end end function body paragraph NUM NUM NUM NUM say starts completion label name declaration makes sense accessed declaration exactly scope label name starts",
+        "question_id": 79624592,
+        "text": "error gcloud app deploy error response NUM failed create cloud build api key expired please renew api key today projects started returning mysterious googlable error running CODEBLOCK CODEBLOCK CODEBLOCK even removing CODEBLOCK completely fix issue debug hours ago everything functioning correctly file upload succeeds updating service step fails",
         "tags": [
-            "c",
-            "scope",
-            "identifier",
-            "goto",
-            "c17"
+            "google-app-engine"
         ]
     },
     {
         "index": 4,
-        "question_id": 79605049,
-        "text": "qsort allocation failure handled question happens qsort allocate space needs thing standard presents qsort nonerring reality must need allocate space decent algorithm truly reliable way make qsort nonerring would make fall back constant space algorithm fails allocate needs would terribly slow nonerring anyone know actually handled practice interested clang gcc handle motivation question working code needs extremely robust sorts large arrays setting memory may tight already worried qsort putting edge way code manage situation",
+        "question_id": 79623397,
+        "text": "variadic template function behave differently template function let suppose example CODEBLOCK call CODEBLOCK LINK understand difference mind since give full list templates parameters compiler anything deduce call equivalent CODEBLOCK obviously case answer give name mechanism play great gut feeling close LINK find anything related documentation",
         "tags": [
-            "c",
-            "gcc",
-            "clang",
-            "qsort",
-            "c23"
+            "c++",
+            "variadic-templates"
         ]
     },
     {
         "index": 5,
-        "question_id": 79605257,
-        "text": "R check NUM errors stackoverflow urls R package several references urls especially CODEBLOCK file never caused problems recent CODEBLOCK package messages like CODEBLOCK looking CODEBLOCK several links get messages ones CODEBLOCK easily confirm pages exist available web browser confirm console via CODEBLOCK function CODEBLOCK meanwhile non stackoverflow sites work fine CODEBLOCK know peculiarity system get errors check package winbuilder anybody explain happens especially workaround",
+        "question_id": 79620522,
+        "text": "make generic method convert strings record lowercase delphi want procedure something like CODEBLOCK know probably various ways accomplish probably need happen via generics rtti suggestions picky terms procedure function works tried couple different things closest came work CODEBLOCK understand rtti enough",
         "tags": [
-            "r",
-            "http-status-code-403"
+            "delphi",
+            "generics",
+            "record",
+            "rtti",
+            "delphi-12-athens"
         ]
     },
     {
         "index": 6,
-        "question_id": 79605465,
-        "text": "module named pip venv pip installed work wsl ubuntu instalation python NUM NUM dependencies previous projects stopped working venv python NUM NUM stopped activate vscode interface errormessage invalid Python interpreter selected please try changing enable features intellisense linting debugging see output details regarding interpreter invalid command source venv bin activate works libraries could resolvedpylance try reinstal see error modulenotfounderror module named pip pip installed venv see folders init main files etc pip python NUM NUM venv python NUM NUM recreate venv turn properly tried reinstall venv pip python NUM NUM python NUM ensurepip requirement already satisfied pip usr lib python NUM dist packages NUM NUM python NUM NUM ensurepip ensurepip disabled debian ubuntu system python python NUM NUM pip version working also python NUM NUM pip install python NUM NUM pip upgrade pip",
+        "question_id": 79622707,
+        "text": "gatherer short circuit stream source intstream playing around stream gatherers introduced least lost preview status Java NUM exercise implemented version CODEBLOCK intermediate operation CODEBLOCK works well list NUM random numbers printed screen expected infinite stream random integers short circuited however generate infinite stream another way work anymore replace line marked CODEBLOCK CODEBLOCK program terminates outofmemoryexception apparently intstream generated CODEBLOCK instance notice gatherer short circuits course use standard CODEBLOCK instead custom one works cases missing",
         "tags": [
-            "python",
-            "ubuntu",
-            "pip",
-            "windows-subsystem-for-linux",
-            "venv"
+            "java",
+            "java-stream",
+            "java-24"
         ]
     },
     {
         "index": 7,
-        "question_id": 79605857,
-        "text": "NUM PHP NUM NUM finally block executed mysqli sql exception occurs works register shutdown function working codeigniter NUM project NUM NUM NUM production mode php NUM NUM NUM running strange issue CODEBLOCK block never executes database error happens execution even though catching CODEBLOCK remove lock file uncomment CODEBLOCK works cleans lock file minimal reproduction CODEBLOCK method CODEBLOCK CODEBLOCK CODEBLOCK CODEBLOCK actual query error CODEBLOCK query triggered within CODEBLOCK method model based class method includes logic CODEBLOCK SQL error caught logged returned part CODEBLOCK still somehow causes php NUM terminate execution CODEBLOCK runs lock file removed works uncomment CODEBLOCK lock file removed expected tells script shut unexpectedly despite CODEBLOCK caught CODEBLOCK fatal visible happening PHP NUM NUM NUM NUM NUM NUM NUM CODEBLOCK set CODEBLOCK production mode query fails typical ambiguous column error handled inside CODEBLOCK custom function CODEBLOCK block CODEBLOCK method never reached shutdown function get called question CODEBLOCK block executed even though exception handled uncaught fatal shown PHP NUM NUM NUM side effect certain internal NUM behaviors forcing shutdown insight NUM internals PHP changes NUM NUM would much appreciated",
+        "question_id": 79620364,
+        "text": "unsigned arithmetic indication overflow happened happened avoided modular arithmetic perform subtraction unsigned type say std uint NUM understand result obtained modular arithmetic means comparison CODEBLOCK question following avoid comparison know modular arithmetic action words cpu provide indication happened shall worry would compiler somehow optimize subtraction comparison operations somehow additional comparison introduce additional cost edt adapt example code focus question",
         "tags": [
-            "php",
-            "codeigniter",
-            "mysqli",
-            "codeigniter-4",
-            "php-8.1"
+            "c++",
+            "unsigned",
+            "modular-arithmetic"
         ]
     },
     {
         "index": 8,
-        "question_id": 79606115,
-        "text": "improve performance packed yuv planar yuv conversion using avx NUM converting frames delivered NUM packed NUM bit yuv format NUM planar NUM bit carried NUM bit values input typically NUM NUM NUM upto NUM scalar implementation quite simple probably fast enough headroom would handy thought attempt get speedup using avx NUM unfortunately current implementation NUM slower test box intel alder lake msvc NUM NUM compiler looking tips improve would particularly useful know bits slow well example alternative instructions techniques perform type interleaving reference NUM format packs NUM NUM bit unsigned components four NUM bit little endian words two NUM bits NUM bit padding LINK LINK planar format plane followed interleaved downsampled plane conceptually current implementation load NUM blocks NUM words single CODEBLOCK mask shift extract component separate CODEBLOCK pack NUM bit values NUM bit shuffle blend generate separate planes using NUM bits NUM bit lane shift NUM bit write output represented visually like light yellow irrelevant zero values bright yellow marks separation lanes LINK actual code CODEBLOCK",
+        "question_id": 79620502,
+        "text": "PHP reference map const static newer PHP NUM working code number constant mappings done using static array various classe example CODEBLOCK reason implemented like example CODEBLOCK reason static would better using const array const actually constant performance benefit const static typically defined classes globals",
         "tags": [
-            "c++",
-            "x86-64",
-            "simd",
-            "avx2"
+            "php",
+            "arrays",
+            "performance",
+            "mapping"
         ]
     },
     {
         "index": 9,
-        "question_id": 79606665,
-        "text": "extract header first commented line NumPy via numpy genfromtxt environment CODEBLOCK according LINK guide describing use CODEBLOCK function optional argument CODEBLOCK used define character string marks beginning comment default genfromtxt assumes CODEBLOCK comment marker may occur anywhere line character present comment marker simply ignored note one notable exception behavior optional argument CODEBLOCK first commented line examined names test mentioned note indicated bold created following data file put header line commented line tmp data txt CODEBLOCK following program read print content file CODEBLOCK result expected CODEBLOCK cannot figure error code understand content data file particular header line comment indicator interpreted correctly appriciate could kindly make clarification",
+        "question_id": 79620845,
+        "text": "repeat fast implementing poisson bootstrap Rust wanted benchmark repeat function numpy briefly CODEBLOCK takes two arguments data weight repeats element data weight NUM NUM NUM NUM NUM NUM NUM NUM NUM naive version around NUM NUM slower CODEBLOCK CODEBLOCK also tried couple versions one pre allocated vector necessary capacity performed similarly investigating though found CODEBLOCK actually way faster numpy functions expected perform similarly example build list indices use numpy slicing take perform operation CODEBLOCK however even removing list construction timings CODEBLOCK around NUM faster numpy slicing take CODEBLOCK good seems like relevant implementation LINK would amazing someone could help understand high level code surface look like anything particularly special simd etc looks pretty similar naive Rust version memcpy repeat addition struggling understand performs much better even numpy slicing",
         "tags": [
             "python",
+            "arrays",
             "numpy",
-            "genfromtxt"
+            "rust"
         ]
     },
     {
         "index": 10,
-        "question_id": 79607113,
-        "text": "compose recomposing new lambda instance someone please help bar recomposing new lambda instance example code creating new instance CODEBLOCK every time state changes since new instance CODEBLOCK recompose well disabled strong skipping using CODEBLOCK CODEBLOCK already checked possibility converting singleton logs LINK",
+        "question_id": 79620882,
+        "text": "pointer null prints nil format specifier experiencing unusual issue program pointer checked CODEBLOCK prints nil using CODEBLOCK format specifier simplified version code CODEBLOCK compiled run CODEBLOCK despite checking tmp CODEBLOCK output get CODEBLOCK understanding pointer address CODEBLOCK represents CODEBLOCK compiled run CODEBLOCK output compiled code using gcc NUM NUM NUM Ubuntu NUM NUM NUM lts could causing discrepancy flags CODEBLOCK effect output insights would greatly appreciated",
         "tags": [
-            "android",
-            "kotlin",
-            "android-jetpack-compose",
-            "kotlin-multiplatform"
+            "c",
+            "pointers",
+            "gcc"
         ]
     },
     {
         "index": 11,
-        "question_id": 79607878,
-        "text": "macos sequoia NUM NUM NUM compiled C++ binary instantly killed run zsh killed recently upgraded sequoia NUM NUM NUM macbook running issue even trivial binaries get automatically killed operating system trivial file CODEBLOCK run CODEBLOCK get following error CODEBLOCK thought signed seem case trivial C++ program gets killed without explanation anyone run recently started happening upgraded think new macos version",
+        "question_id": 79620893,
+        "text": "tidy messy data messy data set generally resembles output following CODEBLOCK desired end state resemble output following CODEBLOCK afraid quite loss cleaning data set almost resembles mangled json data set tried manipulation turn proper json data set convert desired tibble end state unsuccessful",
         "tags": [
-            "c++",
-            "macos",
-            "zsh",
-            "macos-sequoia"
+            "r",
+            "tidyverse",
+            "data-wrangling"
         ]
     },
     {
         "index": 12,
-        "question_id": 79608204,
-        "text": "difference enumeration constant enumerator NUM final draft NUM NUM paragraph NUM NUM NUM says member enumeration called enumeration constant NUM paragraph NUM NUM NUM says enumeration constant scope begins appearance defining enumerator enumerator list consider example code CODEBLOCK code symbols CODEBLOCK CODEBLOCK etc CODEBLOCK values NUM NUM NUM NUM NUM NUM CODEBLOCK right yes CODEBLOCK mean interpret phrase CODEBLOCK scope integer constant enumeration list say NUM making sense phrase CODEBLOCK makes sense please explain distinction CODEBLOCK CODEBLOCK",
+        "question_id": 79620897,
+        "text": "gnu recursive loop macro expected output assembly file macro CODEBLOCK automagically create jump table consecutively numbered labels like CODEBLOCK CODEBLOCK CODEBLOCK seems loop feature CODEBLOCK CODEBLOCK directive official LINK seems suggest appears recursive macro anyway file CODEBLOCK resulting binary disassembled CODEBLOCK yields CODEBLOCK jump table looks weird offsets decreasing would expect increase moreover labelling also looks weird understood correctly expect something like CODEBLOCK bet missing something explanation would help greatly using CODEBLOCK CODEBLOCK NUM NUM macos NUM",
         "tags": [
-            "c",
-            "enums",
-            "scope",
-            "enumeration",
-            "c17"
+            "assembly",
+            "macros",
+            "riscv",
+            "gnu-assembler"
         ]
     },
     {
         "index": 13,
-        "question_id": 79608354,
-        "text": "preprocessing function never called new drupal developer would like know preprocess function never called beginning used one single preprocess function CODEBLOCK like change organization one big function several small ones function use never called drupal checked machine names paragraphs well file call everything seems work correctly side also cleared cache several times using drush command anyone knows fix thanks",
+        "question_id": 79621488,
+        "text": "use std ranges views lazy split std ranges views split C++ NUM introduced two range adapters splitting sequences LINK LINK first glance CODEBLOCK seems clearly superior subranges preserve continuity allow direct conversion CODEBLOCK CODEBLOCK use CODEBLOCK CODEBLOCK standard parsing functions like CODEBLOCK works well parsing tokenization storing results later use contrast CODEBLOCK significant limitations subranges provide contiguous storage cannot directly convert subranges CODEBLOCK accessing split parts often requires manual copying CODEBLOCK NUM practical scenario CODEBLOCK actually better preferred CODEBLOCK mostly legacy artifact design changes introduced LINK",
         "tags": [
-            "php",
-            "drupal"
+            "c++",
+            "c++20"
         ]
     },
     {
         "index": 14,
-        "question_id": 79608435,
-        "text": "requires expressions function namespaces define C++ constraint involves namespace specified function LINK CODEBLOCK requirements CODEBLOCK must global namespace whereas CODEBLOCK must within CODEBLOCK conceptually pun intended CODEBLOCK fulfil concept CODEBLOCK code compiling CODEBLOCK make sense compiler concept defined course fwd declaring CODEBLOCK namespace CODEBLOCK concept definition option know type CODEBLOCK advance missing edit note concept CODEBLOCK belong whatever namespace tried define within CODEBLOCK help",
+        "question_id": 79622113,
+        "text": "Go collect dead weak pointers trying use weak pointers introduced NUM NUM build system weak pointers passed interfaces problem weak pointer follow interface strong pointer wraps fix create wrapper holds weak pointer implements interface original pointer passes calls referenced object returns error already code CODEBLOCK code CODEBLOCK interface implement CODEBLOCK actual implementation CODEBLOCK CODEBLOCK wraps weak pointer CODEBLOCK implements CODEBLOCK interface passed manager CODEBLOCK holds slice CODEBLOCK weakmyjob hood objects tries call NUM NUM CODEBLOCK method way trying simulate struct works objects supposed gced without knowledge must handle gracefully removing objects slice CODEBLOCK jobs created pointers wrapped myweakjob added manager loop finishes jobs accessible anywhere except weak pointer thus must gced see run locally macbook pro NUM output consistent sometimes CODEBLOCK times CODEBLOCK change run run also NUM job gced ran dozens times got NUM outputs also tried running CODEBLOCK loop achieved nothing tried extracting job creation separate function like also changed anything CODEBLOCK escape anaylis contain anything unexpected seems CODEBLOCK question fail collect objects cleanup geting run",
         "tags": [
-            "c++",
-            "namespaces",
-            "c++-concepts"
+            "go",
+            "pointers",
+            "interface",
+            "garbage-collection",
+            "weak-references"
         ]
     },
     {
         "index": 15,
-        "question_id": 79604877,
-        "text": "trigger cascading table firing output clause added delete query NUM tables cascade delete rule CODEBLOCK CODEBLOCK CODEBLOCK LINK want change CODEBLOCK cause recalculation register added triggers CODEBLOCK triggers work fine work directly CODEBLOCK triggers work fine also delete CODEBLOCK using ssms recently noticed deleting CODEBLOCK using entity framework generates following code trigger fired errors ignoring trigger CODEBLOCK noticed problem output NUM compared queries LINK realize many options fire trigger application side use delete cascade table rows firstly want know possible solve problem SQL server side make cascading table delete trigger always fire without surprises",
+        "question_id": 79623445,
+        "text": "test object matrix method code want check object CODEBLOCK passed function method CODEBLOCK converted matrix tried following matrix methods class class work CODEBLOCK returns vector methods character strings see CODEBLOCK know convert character strings method names perform test edit reading answers comments see much complicated originally thought however would still like answer original question find object method interested basic object like vectors case CODEBLOCK issue however answer able deal multiple classes returned CODEBLOCK",
         "tags": [
-            "sql-server",
-            "entity-framework",
-            "triggers"
+            "r",
+            "r-s4",
+            "r-s3"
         ]
     },
     {
         "index": 16,
-        "question_id": 79604956,
-        "text": "react native expo NUM Firebase auth value type string member tolowercase trying build expo sdk NUM expo managed workflow react native app native firebase authentication ios get error error run fastlane step failed error xcode build process automatically detected following errors xcode build logs value type string member tolowercase refer xcode logs additional detailed logs ios blokklymobile appdelegate swift NUM NUM NUM bool NUM generated begin react native firebase auth openurl expo prebuild modify NUM url host tolowercase firebaseauth value type string member tolowercase NUM invocations Firebase auth handled elsewhere forwarded expo router NUM return false NUM understood tolowercase lowercased guess firebase plugin plugins dependencies CODEBLOCK CODEBLOCK tried downgrading expo NUM previous firebase versions tried fix found online work CODEBLOCK wait firebase update",
+        "question_id": 79623564,
+        "text": "uml class diagram chat designing uml class diagram messaging app CODEBLOCK must exactly NUM users CODEBLOCK part multiple CODEBLOCK originally modeled composition CODEBLOCK CODEBLOCK however sure correct goal CODEBLOCK exactly two users users owned chat exist independently users deleted chat also deleted using normal association instead composition best way represent uml thanks advance",
         "tags": [
-            "firebase",
-            "react-native",
-            "expo"
+            "uml",
+            "chat",
+            "class-diagram"
         ]
     },
     {
         "index": 17,
-        "question_id": 79605243,
-        "text": "tell conan glibcxx versions supported environment using conan version NUM NUM NUM install boost Debian bullseye Docker container able successfully command CODEBLOCK LINK however use command CODEBLOCK build packages source whose binary package found get following error CODEBLOCK error suggests conan downloaded binary package actually compatible environment currently using auto detected LINK looks follows CODEBLOCK way tell conan CODEBLOCK versions supported environment profile setting overlooking perfectly acceptable LINK compatible binary package needs built source reason wanting switch CODEBLOCK CODEBLOCK former rebuilds source subsequent builds previously built binary available local cache undesirable",
+        "question_id": 79623674,
+        "text": "filter user input angular want filter user input type HTML text input native html javascript shown following demo CODEBLOCK LINK image typing filtering works like want stackblitz demo LINK done thing using Angular template driven form shown following demo CODEBLOCK LINK image typing filtering work like want stackblitz demo LINK far Angular knowledge goes happens current ngmodel value new filtered value thus Angular trigger change HTML text input overcome behavior angular force Angular trigger change",
         "tags": [
-            "c++",
-            "conan-2"
+            "javascript",
+            "angular",
+            "typescript",
+            "angular-forms",
+            "html-input"
         ]
     },
     {
         "index": 18,
-        "question_id": 79605316,
-        "text": "possible plot large number data matplotlib currently facing problem ask plot earth location long time NUM days using astroquery get location earth decided plot location earth every day making graph possible plot location every NUM days decrease number computations CODEBLOCK code tried notice takes second create new vector NUM takes minutes produce vectors need possible make generate faster",
+        "question_id": 79623716,
+        "text": "sorting dataframe column using list repeated values given dataframe CODEBLOCK drink units beer NUM beer NUM wine NUM wine NUM wine NUM whisky NUM whisky NUM sort drink column using list like one CODEBLOCK resulting dataframe looks like drink units wine NUM beer NUM whisky NUM beer NUM wine NUM whisky NUM initial dataframe rows elements list everything list matched row remaining rows dropped",
         "tags": [
-            "matplotlib"
+            "python",
+            "pandas"
         ]
     },
     {
         "index": 19,
-        "question_id": 79605444,
-        "text": "tcl tee stderr file writing tcl NUM NUM script needs portable across windows linux want capture content written stderr rest program simultaneously write file like tee environment cannot install external package need implement gives CODEBLOCK work error err NUM wrong args chan create mode cmdprefix tried many suggestions none worked stuck hours could someone please show implement short clear preferred really appreciate help longer trust answers",
+        "question_id": 79620184,
+        "text": "able retrieve data fifo queue process calls program take user input add fifo queue requirement call program NUM child process program NUM program takes input user writes fifo queue returning program NUM parent process must able retrieve data written queue program NUM display given minimum reproducible code caller program program NUM called program program NUM respectively program NUM CODEBLOCK program NUM CODEBLOCK run program NUM asks input terminal prints fifo created programs halts without terminating LINK run program NUM separate terminal previous value entered input displayed parent process previous terminal program halts missing aspect ipc need provide taking input user writing fifo queue returns control back calling program tried opening fifo writing using nonblock CODEBLOCK terminated program even taking input user",
         "tags": [
-            "tcl",
-            "io-redirection"
+            "c",
+            "fork",
+            "mkfifo"
         ]
     },
     {
         "index": 20,
-        "question_id": 79605450,
-        "text": "NUM bit version read read read read NUM argument maxcharcount unsigned int limits read NUM version uses NUM bit third argument lseeki NUM doesnt make sense NUM bit read function",
+        "question_id": 79620220,
+        "text": "understanding different translation units meaning learning storage classes stumbled upon something called linkage following site LINK describes linkage translation units terms source file file initially expected learn question terms current translation unit translation units translation unit translation units mean context linkage LINK based understanding LINK translation unit comes preprocessing header files inclusions macros etc along source file call CODEBLOCK file translation unit hard time understanding come storage class matter translation unit furthermore identify different translation units",
         "tags": [
             "c",
-            "windows",
-            "winapi",
-            "io"
+            "gcc",
+            "translation-unit"
         ]
     },
     {
         "index": 21,
-        "question_id": 79605451,
-        "text": "expo NUM upgrade turbomodules appwrite issue app react native expo would like continue developing expo however since new architecture always enabled expo hence turbomodules also always enabled get error CODEBLOCK pretty sure something database provider appwrite since also get error appwrite functionality working anymore since upgrade expo NUM CODEBLOCK leads continue developmemt need information provide thanks help",
+        "question_id": 79620324,
+        "text": "powershell run jobs parallel relatively new powershell trying create function build installers working build series would nice run parallel also needs wait built continue believe would done CODEBLOCK CODEBLOCK get working correctly current code CODEBLOCK run runs immediately gives output CODEBLOCK basically saying processes instantly completed nothing happens would like happen spins process installer starts running parallel complete continues execution returns function wrong edit neglected mention path installer executable resolves com file instead exe company says call scripts full current path CODEBLOCK",
         "tags": [
-            "react-native",
-            "expo",
-            "appwrite",
-            "expo-go",
-            "react-native-turbomodule"
+            "powershell"
         ]
     },
     {
         "index": 22,
-        "question_id": 79605482,
-        "text": "generalization include exclude wondering book ocup NUM certification guide following example use case generalization relationship LINK wrong see generalization relationship pay cash feel like kind pay overdue fine like extend include think",
+        "question_id": 79620472,
+        "text": "boost graph find paths graph containing less edges use case graph algorithm related finding flight connections would like determine boost graph capable addressing ultimate goal find attractive flight connections two airports given customer task question bit smaller though want determine interesting paths graph nomenclature two given airports instance client wants fly krk lhr possible path krk fra lhr list airports geographical coordinates CODEBLOCK represent connections airports directed graph vertex represents airport edge indicates least one direct connection two connected airports time store vector vectors int element outer vector index represents outgoing edges vertex store whatever way CODEBLOCK given data want write function CODEBLOCK return paths graph start CODEBLOCK end CODEBLOCK number edges pah CODEBLOCK less nobody buy flight need connect eight times cycles include vertex represents airport far away CODEBLOCK CODEBLOCK make sure want fly two german airports get solution via australia predicate given vertex CODEBLOCK return CODEBLOCK tell CODEBLOCK acceptable course want implement function efficiently would acceptable compute loads possible useless paths one step discard next step thus questions problem suitable boost graph library tools boost graph use solve problem know always implement algorithm manually question write scratch question implement solution composing components boost graph",
         "tags": [
-            "uml",
-            "use-case",
-            "use-case-diagram"
+            "c++",
+            "boost-graph"
         ]
     },
     {
         "index": 23,
-        "question_id": 79605609,
-        "text": "nullinjectorerror provider injectiontoken using Angular NUM workspace ssr ssg service library uses injection token app service library CODEBLOCK tokens library CODEBLOCK app config app CODEBLOCK app config server gets well via CODEBLOCK environment app CODEBLOCK try use service CODEBLOCK app receive error CODEBLOCK short delay CODEBLOCK solve problem provider thank advance",
+        "question_id": 79621106,
+        "text": "minimize C# memory allocations churn udp sockets receiving data udp C# application using socket receivefrom calls CODEBLOCK expectation passing buffer larger needed call would use buffer rather allocating memory however looking memory allocated call debugger shows memory allocated function note appreciate buffer supply used memory allocated calling code needs free seems socket call allocates frees memory internally part reading data wire nevertheless internal memory allocation producing garbage hammering trying eliminate way receiving data wire cause additional churn memory allocations either buffer endpoint uses input buffers allocate front reuse",
         "tags": [
-            "angular",
-            "server-side-rendering"
+            "c#",
+            "sockets",
+            "memory",
+            "memory-management",
+            "garbage-collection"
         ]
     },
     {
         "index": 24,
-        "question_id": 79605971,
-        "text": "cannot detect protected base class method sfinae attempted following approach using sfinae CODEBLOCK find exists proper method base class called derived class derived class gets base class template parameter works public method base class protected method ideally would prefer keep method checking protected simplified code CODEBLOCK way transform access protected member base class using declval think using CODEBLOCK might making access protected members CODEBLOCK despite inheriting help appreciated thanks",
+        "question_id": 79621376,
+        "text": "fill sell order using oldest assets first following table holds market assets date purchased CODEBLOCK following records table CODEBLOCK holdingid symbol purchasedate units purchaseprice solddate soldprice NUM NUM NUM NUM NUM NUM NUM null null NUM NUM NUM NUM NUM NUM NUM null null NUM NUM NUM NUM NUM NUM NUM null null NUM NUM NUM NUM NUM NUM NUM null null NUM NUM NUM NUM NUM NUM NUM null null assets purchased separate dates price security want process sell order NUM units security CODEBLOCK CODEBLOCK selling oldest holdings first sell order processed CODEBLOCK table look like CODEBLOCK holdingid symbol purchasedate units purchaseprice solddate soldprice NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM null null NUM NUM NUM NUM NUM NUM NUM null null NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM rows NUM NUM used fill sell order NUM units row NUM required fill remaining units order new row created row NUM representing NUM units row NUM NUM units removed row NUM remains untouched could solve using loop altering records updating final row NUM inserting new row NUM would like know better efficient way achive sure sure approach would ugly table millions rows LINK article sort comes close quite looking",
         "tags": [
-            "c++",
-            "std",
-            "template-meta-programming",
-            "sfinae",
-            "declval"
+            "sql-server",
+            "t-sql",
+            "sql-server-2019"
         ]
     },
     {
         "index": 25,
-        "question_id": 79606021,
-        "text": "user written time zones C++ fixed offset utc offset known run time necessarily integral number hours iana time zone database good match simplest user written time zone handle",
+        "question_id": 79621465,
+        "text": "use new containera Tailwind NUM basically want put container class div wanted make center breakpoints tailwind NUM CODEBLOCK changed trying CODEBLOCK CODEBLOCK however work working know read new docs clear expecting behave container put center paddings etc work header paddings",
         "tags": [
-            "c++",
-            "c++20",
-            "c++-chrono"
+            "javascript",
+            "css",
+            "next.js",
+            "tailwind-css",
+            "tailwind-css-4"
         ]
     },
     {
         "index": 26,
-        "question_id": 79606084,
-        "text": "replacement using switch enum value access struct union data member writing emulator custom isa NUM bit processor instructions operands different sizes NUM standard code use enum members indicate size operands unions model registers like following code fragments show CODEBLOCK CODEBLOCK end frequently using switches operand size enum values like example mov handler CODEBLOCK used macros make code shorter defined follows provide access fields CODEBLOCK CODEBLOCK CODEBLOCK problem using switches tedious makes code ugly language feature map enum values assignments data members sizes way use preprocessor encapsulate switches macro found comfortable way use preprocessor thought maybe mapping array like CODEBLOCK within instruction handler function use like CODEBLOCK access underlying functions want apparently bad compiler cannot inline function pointer calls static storage every instruction handler function would appreciate ideas make code clearer",
+        "question_id": 79621625,
+        "text": "way R parse values vector create factors let suppose following vector CODEBLOCK way factor levels like CODEBLOCK way CODEBLOCK recognizes CODEBLOCK two levels CODEBLOCK",
         "tags": [
-            "c",
-            "enums",
-            "switch-statement",
-            "refactoring",
-            "union"
+            "r"
         ]
     },
     {
         "index": 27,
-        "question_id": 79606247,
-        "text": "C++ function parameter accepts iterator specific type know use template make constructor accepts type iterator like CODEBLOCK make constructors accept specific iterator type containers using CODEBLOCK would like want iterators restricted specific type container imagine types CODEBLOCK CODEBLOCK refer int std string iterators like CODEBLOCK could initialize struct kind list CODEBLOCK straightforward way accomplish imagined CODEBLOCK CODEBLOCK",
-        "tags": [
-            "c++",
-            "iterator"
-        ]
-    },
-    {
-        "index": 28,
-        "question_id": 79606596,
-        "text": "using offsetof get allocation size code got declarations like CODEBLOCK real structures complex want allocate CODEBLOCK heap container CODEBLOCK CODEBLOCK slots end assume sake question unsigned parameter passed function currently using CODEBLOCK little long practice type names get longer less trivial expression number elements may required number places could make errors could validly shorten computation amount allocate CODEBLOCK know works gcc given implements CODEBLOCK something expect work compilers find clear answer yes checked left much head scratching LINK LINK edit LINK seems widely quite universally accepted compilers support flexible array members edit NUM add looks suspiciously like something standard header file CODEBLOCK works compilers support fams including ones work CODEBLOCK sake argument also tried using vla able use CODEBLOCK CODEBLOCK makes gcc something weird unexpected stack getting generating relevant code despite variables type declared many compilers outright refuse least fine allowed current standards",
-        "tags": [
-            "c",
-            "flexible-array-member",
-            "offsetof"
-        ]
-    },
-    {
-        "index": 29,
-        "question_id": 79606785,
-        "text": "select range data based selected value using Pandas dataframe need select range data based month value result expected always showing six rows month selected appears filtered data code CODEBLOCK output CODEBLOCK issue code select CODEBLOCK example order months good expet somthing like CODEBLOCK select CODEBLOCK example output CODEBLOCK select CODEBLOCK output example CODEBLOCK order month displated matters always CODEBLOCK CODEBLOCK output like CODEBLOCK output CODEBLOCK anyone please could adjust code thanks",
-        "tags": [
-            "python",
-            "pandas",
-            "dataframe"
-        ]
-    },
-    {
-        "index": 30,
-        "question_id": 79606837,
-        "text": "documentation slnx solution format find microsoft two blog posts LINK dated march NUM NUM says preview feature LINK also dated march NUM NUM says fully supported contains mention preview blog posts explain enable convert old solution files cool etc mere blog posts constitute documentation specifically explain XML elements supported XML attributes element supports documentation",
-        "tags": [
-            "c#",
-            ".net",
-            ".net-core",
-            "msbuild",
-            "solution"
-        ]
-    },
-    {
-        "index": 31,
-        "question_id": 79606868,
-        "text": "assignment else statement triggers warning msvc gcc clang code snippet triggers warning msvc NUM NUM NUM NUM CODEBLOCK tested gcc clang LINK msvc warning correct hiding happening also gcc clang warning would expect consistent behavior across compilers",
-        "tags": [
-            "c++",
-            "compiler-warnings"
-        ]
-    },
-    {
-        "index": 32,
-        "question_id": 79606913,
-        "text": "receiving data long column working spring boot application using jpa hibernate trying persist field serialized JSON using custom converter field mapped varchar NUM column mysql dto CODEBLOCK entity CODEBLOCK converter CODEBLOCK issue run native SQL insert query data gets stored correctly persist entity using jpa get error CODEBLOCK hibernate fail persist data native SQL works",
-        "tags": [
-            "java",
-            "spring-boot",
-            "hibernate",
-            "jpa"
-        ]
-    },
-    {
-        "index": 33,
-        "question_id": 79606949,
-        "text": "collapse union string literals intellisense without branded type codebase CODEBLOCK type rather large union string literals like CODEBLOCK true CODEBLOCK type right using CODEBLOCK inside nested data structures function return types intellisense becomes messy since CODEBLOCK CODEBLOCK shown full union making types barely readable way make type collapse shows currency intellisense want use branded type since need pass eur code without casting branded value first edit self contained example CODEBLOCK",
-        "tags": [
-            "typescript"
-        ]
-    },
-    {
-        "index": 34,
-        "question_id": 79607144,
-        "text": "using fastify inject post method writing test fastify app trying call CODEBLOCK CODEBLOCK method CODEBLOCK endpoint definitions CODEBLOCK related definitions CODEBLOCK however see request fetting server route code called CODEBLOCK CODEBLOCK method CODEBLOCK able hit route code routes configured correctly CODEBLOCK specified code example using CODEBLOCK instead CODEBLOCK produced results also tried CODEBLOCK payload getting result call CODEBLOCK function CODEBLOCK method",
-        "tags": [
-            "node.js",
-            "testing",
-            "fastify"
-        ]
-    },
-    {
-        "index": 35,
-        "question_id": 79607210,
-        "text": "use buffer overflow modify function pointer value currently trying make code safe cybersecurity exercise asked make flag contained CODEBLOCK come problem modify code see give address CODEBLOCK value CODEBLOCK hint given CODEBLOCK might help even though understand tried multiple values thing able achieve segfault exceeded NUM characters due buffer limit code functions involved CODEBLOCK",
-        "tags": [
-            "c",
-            "security",
-            "function-pointers",
-            "buffer-overflow",
-            "void-pointers"
-        ]
-    },
-    {
-        "index": 36,
-        "question_id": 79607353,
-        "text": "attributes added handler middleware appearing using logger using standard log slog package created custom handler middleware contexthandler automatically add request scoped attributes like session context context log records middleware wraps base handler like slog jsonhandler devslog handler middleware looks roughly like CODEBLOCK grpc handler inject logger created newlogger CODEBLOCK observation works use injected logger directly context method session added middleware appears correctly final log output CODEBLOCK work create derived logger using within handler method use context method derived logger session added middleware appear final output appearance inconsistent although attributes added via like appear CODEBLOCK question behavior expected might attributes added dynamically slog record via addattrs handler middleware fail appear final output logging call made using logger instance derived logger standard recommended way ensure attributes added handler middleware work reliably even used Go NUM NUM NUM",
-        "tags": [
-            "go",
-            "logging",
-            "slog"
-        ]
-    },
-    {
-        "index": 37,
-        "question_id": 79607790,
-        "text": "given various locales like turkish xfd nfinity match infinity strtod note locales part evolving support following NUM maybe back NUM minor corner case CODEBLOCK locales like turkish CODEBLOCK CODEBLOCK match CODEBLOCK CODEBLOCK unusual CODEBLOCK CODEBLOCK locales map case changed LINK character LINK one example locale turkish CODEBLOCK maps CODEBLOCK CODEBLOCK maps CODEBLOCK CODEBLOCK sample output CODEBLOCK sample CODEBLOCK CODEBLOCK friends case insensitive select ways upper case lower case characters defined language per locale specifies NUM uppercase letters latin alphabet R NUM lowercase letters latin alphabet NUM NUM NUM NUM NUM letter uppercase letter lowercase letter defined previously subclause document term include characters letters alphabets NUM NUM NUM NUM NUM NUM NUM NUM islower function CODEBLOCK CODEBLOCK function tests character lowercase letter one locale specific set characters none CODEBLOCK CODEBLOCK CODEBLOCK CODEBLOCK true locale CODEBLOCK returns true lowercase letters defined NUM NUM NUM CODEBLOCK expected form subject sequence optional plus minus sign one following inf infinity ignoring case NUM NUM NUM NUM NUM NUM locale additional locale specific subject sequence forms may accepted NUM NUM NUM NUM NUM NUM appears lib CODEBLOCK ignore case per locale instead uses case per NUM NUM NUM character set spec CODEBLOCK sample output CODEBLOCK question compliant behaviors concerning inf infinity ignoring case use use case per locale cite supports perhaps either allowed appears one writes CODEBLOCK replacement code using CODEBLOCK CODEBLOCK risks non compliance may allow CODEBLOCK",
-        "tags": [
-            "c",
-            "language-lawyer",
-            "case-sensitive",
-            "case-insensitive"
-        ]
-    },
-    {
-        "index": 38,
-        "question_id": 79607931,
-        "text": "convert single surrogate character without pair utf NUM equivalent experimenting CODEBLOCK order convert CODEBLOCK utf NUM equivalent stored CODEBLOCK works nicely surrogate characters ranging CODEBLOCK CODEBLOCK CODEBLOCK another way get utf NUM form surrogate character alone also tried CODEBLOCK CODEBLOCK CODEBLOCK yields outcome",
-        "tags": [
-            "c",
-            "utf-8",
-            "c99",
-            "surrogate-pairs"
-        ]
-    },
-    {
-        "index": 39,
-        "question_id": 79608369,
-        "text": "bars fitting axis ticks Seaborn distplot generate figure CODEBLOCK problem ticks axis fit bars cases would expect relationship bars ticks like see NUM NUM LINK mwe CODEBLOCK",
-        "tags": [
-            "python",
-            "seaborn"
-        ]
-    },
-    {
-        "index": 40,
-        "question_id": 79608429,
-        "text": "byval target range issue hoping long time excel user infrequent vba user setup code keep workbooks sheets hidden unless cell project relevancy column selected yes half works anytime NUM row relevant department sheet stays hidden unless rows selected yes CODEBLOCK would like possible sheets unhide cells department relevancy selected whether NUM NUM rows help would greatly appreciated LINK",
+        "question_id": 79621852,
+        "text": "apply conditional formatting vba used vba copied code workbook NUM NUM apr finance analysis use worksheet scorecard getting run time error NUM figure would also like add code cell blank apply conditional formatting thanks advance CODEBLOCK",
         "tags": [
             "excel",
             "vba"
         ]
     },
     {
+        "index": 28,
+        "question_id": 79621895,
+        "text": "alignment vector vectors C++ templated type shortest way declare vector vectors inner CODEBLOCK metadata fields importantly size pointer user chosen alignment ideally able specify alignment directly inside template CODEBLOCK seem valid syntax placement CODEBLOCK keyword absence possibility shortest possible alternative still generic create non templated wrapper CODEBLOCK concrete type place CODEBLOCK found hints approaches reddit thread LINK boilerplate still looks rather large drop api requirement simple way might something like CODEBLOCK adds extra wrapping requiring access CODEBLOCK looking declare alignment without change interface CODEBLOCK needs accessed solution proper api compatible drop replacement CODEBLOCK constructors methods behaviour future proofness CODEBLOCK may get changed future remark importance parallel programs aligning vector metadata fields important avoid false sharing parallel programs extremely common parallelised loop loop iteration writes output CODEBLOCK thus CODEBLOCK needed thread writes respective vector think perfectly linear speedup vectors size fields near fitting cache line false sharing triggers CODEBLOCK one thread slows another thread explained talk LINK remark comparing solutions found quick testing LINK using outer array instead vector useful quickly check involved alignments CODEBLOCK related questions LINK almost questions question mis placed asker actually intend align vector individual elements question needs exactly thank",
+        "tags": [
+            "c++",
+            "stdvector",
+            "memory-alignment",
+            "alignas"
+        ]
+    },
+    {
+        "index": 29,
+        "question_id": 79621902,
+        "text": "add alternating white grey shading plot categorical variables axis looked LINK struggling make work code plot created LINK would like add alternating white grey bars background behind species easier tell dot whiskers relates species similar figure another paper bars extending fully across plot end plot axis also plot dot whiskers offset much overlap background bar would blue red dot whisker LINK uploaded dataset GitHub page found LINK code CODEBLOCK edit requested output running CODEBLOCK CODEBLOCK",
+        "tags": [
+            "r",
+            "ggplot2",
+            "background"
+        ]
+    },
+    {
+        "index": 30,
+        "question_id": 79621916,
+        "text": "malformed block ansible trying run playbook gathers yum history logs consolidates single server ran playbook CODEBLOCK formatting got malformed block error seemed put whole playbook single block wrong given bunch formatting issues fixed mostly deleting lot spaces like spaces get malformed block idea next",
+        "tags": [
+            "automation",
+            "ansible",
+            "rhel"
+        ]
+    },
+    {
+        "index": 31,
+        "question_id": 79622027,
+        "text": "pattern matching null values assignableto type given list objects passed method overloads want determine overload best matches object types order invoke method CODEBLOCK works fine arguments non null however need account possibility null values polymorphic types seem problem way write patterns match values assignable type specifically null convoluted ways could write allow possibility null values fun CODEBLOCK best currently",
+        "tags": [
+            "c#",
+            "null",
+            "pattern-matching"
+        ]
+    },
+    {
+        "index": 32,
+        "question_id": 79622116,
+        "text": "independent read independent write iriw scenario changing loads seq cst alone sufficient prevent result C++ NUM C++ NUM consider classic iriw litmus test modification loads CODEBLOCK stores still CODEBLOCK CODEBLOCK outcome CODEBLOCK forbidden seems outcome indeed forbidden according latest draft C++ NUM LINK outcome CODEBLOCK would produce loop order among seq cst operations CODEBLOCK stands sequenced cob stands coherence ordered LINK cob relation mediated relaxed stores LINK however herd NUM reports outcome allowed NUM although implemented tested using LINK herd NUM GitHub repo since standard text seems come directly NUM paper least based explanation LINK surprising sure reasoning incorrect standard subtly different NUM paper C++ version NUM different substantial ways herd NUM NUM implementation missing guarantees also blocking outcome seems really difficult implement hardware relaxed version iriw behavior already present problem came trying prove non mca system recover C++ seqcst semantics seq cst stores amos made mca however seq cst loads alone sufficient blocking difference observed store order iriw seq cst stores amos mca enough loads would need somehow wait force inflight overlapping stores across entire system made globally visible also forward progress block overlapping stores cores committed seems really costly even possible edited NUM NUM NUM nateeldredge suggested comment herd NUM able graph involved abstract orders graph added end question graph clear NUM CODEBLOCK extended coherence order equivalent C++ standard coherence ordered edges contribute CODEBLOCK partial partial order extended total order deeper look LINK show actually intended way CODEBLOCK works may answer original question mine NUM might different standard petercordes mentioned comment non mca architectures still efficiently implement seqcst loads unsatisfying reason original NUM paper avoid strong semantic seqcst instead another observable example NUM paraphrased version remark NUM NUM paper consider following strengthened example CODEBLOCK even right compilers would compile seq cst loads plain CODEBLOCK annotated result readily observable NUM hardware however based similar analysis C++ NUM forbid experiments LINK LINK makes unsure reasoning iriw case correct carry case presented seems indicate clang NUM unsound seq cst loads right edited NUM NUM NUM later seq cst strong seem oversight NUM current C++ standard see LINK litmus test command result CODEBLOCK CODEBLOCK CODEBLOCK LINK",
+        "tags": [
+            "c++",
+            "cpu-architecture",
+            "atomic",
+            "memory-barriers",
+            "memory-model"
+        ]
+    },
+    {
+        "index": 33,
+        "question_id": 79622385,
+        "text": "create dataframe column containing list number whose length determined another column data frame CODEBLOCK CODEBLOCK CODEBLOCK individuals CODEBLOCK CODEBLOCK want add another column list CODEBLOCK CODEBLOCK column corresponding CODEBLOCK output would look like CODEBLOCK able get close CODEBLOCK loop see graceful way join result original data frame anyway would prefer CODEBLOCK solution CODEBLOCK",
+        "tags": [
+            "r",
+            "dataframe",
+            "dplyr",
+            "tidyverse"
+        ]
+    },
+    {
+        "index": 34,
+        "question_id": 79623234,
+        "text": "std atomic lock free shows true pthread mutex lock called atomic variable contains NUM bytes member variable hope load store operation lock free could achieved CODEBLOCK sample code CODEBLOCK compiled CODEBLOCK result CODEBLOCK instruction executed CODEBLOCK CODEBLOCK CODEBLOCK executed following CODEBLOCK compiled CODEBLOCK result CODEBLOCK instruction executed CODEBLOCK gdb step CODEBLOCK calls CODEBLOCK shows CODEBLOCK implemented lock atomic different behaviour output CODEBLOCK cause could ensure NUM bytes load store lock free enviornment CODEBLOCK",
+        "tags": [
+            "c++",
+            "gcc",
+            "atomic",
+            "redhat",
+            "stdatomic"
+        ]
+    },
+    {
+        "index": 35,
+        "question_id": 79623245,
+        "text": "simplify prime factorization like expression optimal performance working situation need turn arithmetic string expression CODEBLOCK following prime factorization form prod text prime latex format prime numbers rational numbers result want returned CODEBLOCK keys prime factors values respective exponents arithmetic expression contains multiplication division power operations exponent power regarded constant contains recursive sub structures fraction turned CODEBLOCK object current attempt solve problem traversing abstract syntax tree recursively leaf node single integer value take prime factors store CODEBLOCK power multiply element CODEBLOCK exponent multiplication division add subtract term CODEBLOCK method works however creates separate dict every leaf node CODEBLOCK mutable type creating multiple times efficient looking solution create one CODEBLOCK beginning perform updates CODEBLOCK without create CODEBLOCK also actual use case situation may already CODEBLOCK containing prime factorization want update CODEBLOCK represents multiplication CODEBLOCK factorization expression solution problem investigating prefix postfix polish reverse polish notation sure whether correct direction requirement using one CODEBLOCK external data structure stack acceptable possible CODEBLOCK",
+        "tags": [
+            "python",
+            "math",
+            "primes",
+            "abstract-syntax-tree",
+            "postfix-notation"
+        ]
+    },
+    {
+        "index": 36,
+        "question_id": 79623298,
+        "text": "draftemail removing bcc email used simple mailto links provide users simple way open new draft email relevant emails directly filled issue limit length href supported links NUM chars sometimes need avoid issue shifting server side solution building new CODEBLOCK send CODEBLOCK CODEBLOCK works fine long emails provided fields bcc field work seems purpose LINK understand seems related fact bcc message envelope would simple way attempting far understand envelope used send message want send message want create sending handled email client another issue unlike mailto links draftemail seem add signature user assume external file new message reply issue well alternatives symfony mailto links thing far signatures bcc recipients concerned length limitation thank help",
+        "tags": [
+            "php",
+            "symfony",
+            "mailto",
+            "email-client"
+        ]
+    },
+    {
+        "index": 37,
+        "question_id": 79623448,
+        "text": "way get real last row affected autofilter without altering current autofilter status using usedrange looping cells bottom surprisingly seems common ways get last row affected autofilter matter find end xlup specialcells range filtered get real last row way get last row worksheet unfiltered without turning resetting autofilter thank much",
+        "tags": [
+            "excel",
+            "vba"
+        ]
+    },
+    {
+        "index": 38,
+        "question_id": 79623528,
+        "text": "set rows read application following requirements predefined event application occurs need update insert rows different tables event certain rows various tables set readonly meaning updates deletes allowed specific rows implement added isreadonly column relevant tables created functions security policies enforce restrictions CODEBLOCK row isreadonly NUM update delete expected conversely row isreadonly NUM updates deletes permitted also expected however event occurs attempt change isreadonly NUM NUM encounter error attempted operation failed target object mytablent block predicate conflicts operation operation performed view block predicate might enforced underlying table modify operation target rows allowed block predicate disabling security policy temporarily allows set isreadonly NUM enable policy resolves issue however brief period security policy disabled risk unauthorized changes could made rows problem seems predicate evaluates new value isreadonly NUM instead actual value table preventing changing isreadonly seeking ideas address requirement effectively",
+        "tags": [
+            "sql-server",
+            "t-sql",
+            "readonly"
+        ]
+    },
+    {
+        "index": 39,
+        "question_id": 79623534,
+        "text": "call large SQL queries inside procedures functions create common helper functions snowflake system need identify different types risk associated entities many large scripts detecting different risk behaviours associated entities scripts producing one risk marker types master event table active past risks dummy version created following CODEBLOCK mark event entity risk marker type mark event eff date mark event end date NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM note particular NUM NUM NUM active ids NUM NUM inactive real end date regardless logic risk identifier scripts output schema dummy output produced script identifies marker types NUM NUM CODEBLOCK entity risk marker type NUM NUM NUM NUM NUM NUM NUM NUM simulates identifying risk entity NUM NUM NUM type NUM NUM type NUM following SQL queries update master table relevant info output table particular NUM NUM pair already known open changes needed event NUM NUM NUM event new risk needs added new event NUM NUM NUM NUM events previously closed need reopened old events NUM NUM need new events NUM NUM NUM NUM longer detected need closed event NUM NUM CODEBLOCK mark event entity risk marker type mark event eff date mark event end date NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM NUM want copy paste NUM lines code bottom every risk identifier script especially others creating identifier scripts would like abstract code procedure function could called passed temporary table reference query output therefore template risk script would CODEBLOCK would call procedure contains helper queries queries large procedure dont know begin insert large query variables function example error procedure CODEBLOCK CODEBLOCK would construct helper procedure function",
+        "tags": [
+            "sql",
+            "stored-procedures",
+            "snowflake-cloud-data-platform",
+            "user-defined-functions"
+        ]
+    },
+    {
+        "index": 40,
+        "question_id": 79623626,
+        "text": "unable install NUM extension R unable install LINK community extension figure reason see code error message idea causing problem CODEBLOCK error CODEBLOCK rapi execute failed run query error http error failed download extension NUM url http community extensions duckdb org NUM NUM NUM windows amd NUM mingw NUM duckdb extension http NUM candidate extensions NUM http https httpfs motherduck info visit LINK run CODEBLOCK see error occurred",
+        "tags": [
+            "r",
+            "duckdb",
+            "h3"
+        ]
+    },
+    {
         "index": 41,
-        "question_id": 79604815,
-        "text": "creating list integer lists fixed length contain integers increase one remain python trying write code generate lists fixed length property next integer list either increment previous integer lists start NUM write code size NUM uses NUM nested loops want continue path NUM nested loops clear give examples length NUM CODEBLOCK code return lists length NUM instead voting could help improve question really bad working code CODEBLOCK produces CODEBLOCK included argument wish code sometimes thing different starting index",
+        "question_id": 79624145,
+        "text": "cmake give one source file different flags several targets declared directory CODEBLOCK cmake api utility function injects per source compile options user supplied target everything works user matrix test suite creates several targets cmakelists txt reuse file point cmake merges per source properties target ends union flags minimal reproducible example CODEBLOCK CODEBLOCK observed every target declared directory cmake stores CODEBLOCK per directory filename second third loop iterations concatenates new value build receives three switches CODEBLOCK required target test cpp must compile exactly one CODEBLOCK source target may see flag user sources must remain intact renaming copying moving questions native cmake facility apply per target per source compile options identical source paths directory share properties test suite cmake project auto generates target matrix pattern lets keep targets one directory still assigning unique flags test cpp true per target per source mechanism exist CODEBLOCK reliably detect path already conflicting CODEBLOCK set elsewhere emit warning error storing state project wide cache variable approach ensures single unpolluted flag CODEBLOCK per target without affecting files welcome test suite generates targets matrix type input naive solution comes mind create subfolders target build tree CODEBLOCK",
+        "tags": [
+            "c++",
+            "cmake"
+        ]
+    },
+    {
+        "index": 42,
+        "question_id": 79624254,
+        "text": "way determine stack size limit end point within running uefi application fairly large uefi application NUM NUM upx compressed number functions allocate reasonably large data structures stack kilobytes like add debug code report stack high watermark similar described LINK specifically uefi application order implement need know location end stack tried looking linker script see reference stack poking around run time allocating increasingly larger data blocks stack see happens system using lot ram went many gigabytes crashed point thinking bios allocates single stack simply passes along via rsp register uefi application hoping protocol find end stack",
+        "tags": [
+            "c",
+            "stack",
+            "x86-64",
+            "stack-memory",
+            "uefi"
+        ]
+    },
+    {
+        "index": 43,
+        "question_id": 79624519,
+        "text": "given pointer setting pass ownership relatively new Rust trying understand concept ownership better code compile CODEBLOCK makes sense variable passed ownership tried following code compile CODEBLOCK question effect thanks",
+        "tags": [
+            "rust",
+            "borrow-checker"
+        ]
+    },
+    {
+        "index": 44,
+        "question_id": 79624880,
+        "text": "problems different pseudo elements sharing CSS code lesson learned try deal coding issues jet lagged blind exhaustion apologies combine CODEBLOCK CODEBLOCK pseudo element share css two versions logo circle opposite ends CSS version identical except pseudo element attached class name CODEBLOCK try combine two classes separated comma CODEBLOCK overrides CODEBLOCK circle appears end name one tried switching sequence classes appear result CODEBLOCK basic code using lft left rgt right class applied grandparent logoname determine version logo using spot also controls postioning tease element CODEBLOCK something CSS specs prohibits two different pseudo elements share CSS code hardship necessary puzzling",
+        "tags": [
+            "html",
+            "css",
+            "pseudo-element"
+        ]
+    },
+    {
+        "index": 45,
+        "question_id": 79624989,
+        "text": "linux loader lock loader int attribute constructor currently developing program module called test inside test code loads uses external library called wow test module created new test project execution flow follows test program main test internally loads wow test needs automatically execute code upon loaded used constructor function like CODEBLOCK however constructor function working properly research found attempting load another file using dlopen within constructor function fail appears due loader lock initialization order dynamic libraries linux furthermore source code header files wow compiled file also must solve issue modifying test cannot modify part",
+        "tags": [
+            "c",
+            "linux",
+            ".so"
+        ]
+    },
+    {
+        "index": 46,
+        "question_id": 79620135,
+        "text": "possible make fragment stay visible across two fragment steps disappear CODEBLOCK display content disappears next fragment would like something like fade still content would remain visible next fragment disappear following one possible concrete reproducible example would like CODEBLOCK",
+        "tags": [
+            "quarto",
+            "reveal.js"
+        ]
+    },
+    {
+        "index": 47,
+        "question_id": 79620180,
+        "text": "xpath NUM NUM backwards compatible find list breaking changes working application extensively uses xpath expressions current xpath processor supports xpath NUM NUM syntax want upgrade application support xpath NUM NUM syntax xpath NUM NUM backwards compatible xpath NUM NUM expressions continue work way processed xpath NUM NUM processor breaking changes need look existing xpath NUM NUM expressions due nature application may feasible regression test every existing xpath expression",
+        "tags": [
+            "xpath",
+            "xpath-2.0"
+        ]
+    },
+    {
+        "index": 48,
+        "question_id": 79620262,
+        "text": "detect user truly left blazor server app simple navigation working blazor server app need detect user actually leaves application closes browser tab loses connection navigate pages know navigation within blazor server app tears current circuit opens new one also triggers onconnectiondownasync onconnectionupasync custom circuithandler makes hard know whether user simply navigated truly disconnected solve trying following approach proposed approach use timeout onconnectiondownasync delay user disconnected logic cancel timeout new circuit connects shortly afterward code CODEBLOCK question approach make sense distinguishing user navigation actual disconnects blazor server edge cases race conditions watch better pattern handling kind circuit tracking appreciate feedback improvements anyone dealt similar scenarios",
+        "tags": [
+            ".net",
+            "blazor",
+            "signalr",
+            "blazor-server-side"
+        ]
+    },
+    {
+        "index": 49,
+        "question_id": 79620331,
+        "text": "range generators joined possible range generators yes possible join CODEBLOCK CODEBLOCK",
+        "tags": [
+            "c++",
+            "std-ranges",
+            "c++23",
+            "c++-coroutine"
+        ]
+    },
+    {
+        "index": 50,
+        "question_id": 79620333,
+        "text": "insert new column blanks existing dataframe existing dataframe CODEBLOCK output CODEBLOCK need insert new column CODEBLOCK rows contains NUM spaces recreating dataframe scratch would something like CODEBLOCK desired output CODEBLOCK best way CODEBLOCK new column existing dataframe may hundreds rows ultimately trying figure write function shift columns dataframe number spaces right",
+        "tags": [
+            "python",
+            "pandas"
+        ]
+    },
+    {
+        "index": 51,
+        "question_id": 79620366,
+        "text": "parse text front end building vue app uses R back end able successfully pull data form using plumber library however know parse text R code using pull data vue app form works properly CODEBLOCK output CODEBLOCK looks like CODEBLOCK string contains form inputs priya however parse variables need code CODEBLOCK pulling correct text strings wrong context front end script CODEBLOCK",
+        "tags": [
+            "javascript",
+            "html",
+            "r",
+            "vue.js",
+            "plumber"
+        ]
+    },
+    {
+        "index": 52,
+        "question_id": 79620434,
+        "text": "cannot add persistent generated datetime column statement confused behaviour persistent generated columns mariadb comes statements dates following works CODEBLOCK CODEBLOCK CODEBLOCK CODEBLOCK throws following error CODEBLOCK put together examples LINK also tested locally mariadb NUM NUM behaviour mysql seems making generated column CODEBLOCK rather CODEBLOCK fixes problem expected use case like able add index generated column docs say non deterministic built functions supported expressions persistent indexed virtual generated columns part final example non deterministic component parts work fine",
+        "tags": [
+            "mariadb",
+            "virtual-column",
+            "mariadb-10.11"
+        ]
+    },
+    {
+        "index": 53,
+        "question_id": 79620454,
+        "text": "possible load data specific column dataset select columns solve linear regression problem CODEBLOCK next line code python see anymore type time gives error column name quite understand select column number python gives error due number errors CODEBLOCK valueerror many values unpack expected NUM mistake understand error already searched entire internet found answer",
+        "tags": [
+            "python",
+            "pandas"
+        ]
+    },
+    {
+        "index": 54,
+        "question_id": 79620559,
+        "text": "would disable snapping elements moving scene builder designing javafx using scene builder move elements precision due uncontrollable snapping moving elements scene builder turn try move element scene builder text buttons fields move precisely always snaps wrong place red lines move way takes position elements mind like google slides example want turn cant workaround found manually changing element precise value position portion layout section also ideal way turn least make better way experienced javafx designers move elements around parallel elements precision another problem move element right side anchor pane scene builder ends making anchor pane bigger makes element stay relative new size happen left side reason also pretty annoying annoying problem thanks",
+        "tags": [
+            "java",
+            "user-interface",
+            "javafx",
+            "scenebuilder"
+        ]
+    },
+    {
+        "index": 55,
+        "question_id": 79620592,
+        "text": "swiftui crash vstack init overflow failing app review CODEBLOCK app review simply opens view tried reproducing every real sim device possible ios version add link symbolicated crash logs gpt says crash logs indicate seg fault CODEBLOCK view initialized due overflow stack app review said simply opening view causes crash resubmitted apple review multiple times somehow reproduce every time best understanding crash logs appreciate help tried using lazyvstack vstack help tried removing CODEBLOCK view recursion total NUM static items CODEBLOCK scrollview include basic structure code appreciate anyone see issues clear cannot provide reproducible example even reproduce device therefor provided basic layout view along symbolicated crash logs symbolicated crash log LINK CODEBLOCK",
+        "tags": [
+            "ios",
+            "swiftui"
+        ]
+    },
+    {
+        "index": 56,
+        "question_id": 79620684,
+        "text": "cut operator discarding choice points disclaimer yes assignment think alternative solution already want figure initial attempt work understand functioning intended coding predicate CODEBLOCK CODEBLOCK takes two nodes returns CODEBLOCK valid path CODEBLOCK CODEBLOCK separately defined CODEBLOCK predicate semantically CODEBLOCK represents directed edge CODEBLOCK CODEBLOCK CODEBLOCK understanding hits CODEBLOCK indeed able unify CODEBLOCK CODEBLOCK proceed CODEBLOCK cut discard previous choice points proceed short circuit rest statements meaning look nodes form path however given following knowledge base CODEBLOCK query CODEBLOCK program displays CODEBLOCK path verified trace mode also steps back check connected nodes landing checking displaying CODEBLOCK understanding choice points work CODEBLOCK stopped backtracking check nodes flawed understanding cut operator preventing understanding code results output",
+        "tags": [
+            "recursion",
+            "prolog",
+            "prolog-cut"
+        ]
+    },
+    {
+        "index": 57,
+        "question_id": 79620887,
+        "text": "maven downgrades transitive dependency scopes let assume simple Java project reason need let say CODEBLOCK class tests add dependency CODEBLOCK scope works fine someone future either adds CODEBLOCK dependency CODEBLOCK dependencies add new CODEBLOCK dependency also uses maven still see CODEBLOCK dependency without warning similar well documented LINK even dependency actually also needs runtime combination spring boot maven plugin packages fat jar seems dangerous CODEBLOCK CODEBLOCK part fat jar leading quite obvious runtime problems anyone ever encountered found good way handle",
+        "tags": [
+            "java",
+            "maven",
+            "dependency-management",
+            "spring-boot-maven-plugin"
+        ]
+    },
+    {
+        "index": 58,
+        "question_id": 79620943,
+        "text": "filter operation happen CODEBLOCK far knew filter operation occurs main query subquery relationship found filter operation also occurs simple query NUM running lot queries generalize situation filter operation happens find rules filter operation happen update CODEBLOCK see even though changed CODEBLOCK CODEBLOCK format filter operation still occurs CODEBLOCK said comments think conversion problem conversion problem think filter operation occur query well",
+        "tags": [
+            "sql",
+            "oracle-database"
+        ]
+    },
+    {
+        "index": 59,
+        "question_id": 79620987,
+        "text": "remove padding accordion items latest version flowbite svelte currently using flowbite version NUM NUM NUM svelte app issue unable remove padding accordionitems contents since want control looks like default NUM NUM tried applying custom class global app css CODEBLOCK wrap component work also CODEBLOCK",
+        "tags": [
+            "javascript",
+            "css",
+            "svelte",
+            "flowbite-svelte"
+        ]
+    },
+    {
+        "index": 60,
+        "question_id": 79621020,
+        "text": "graphiql springboot shows react errors blank page work Kotlin spring api running inside Docker container CODEBLOCK image wsl NUM Ubuntu NUM NUM lts host windows NUM entreprise NUM NUM project dependencies version Java NUM Kotlin NUM NUM NUM spring boot NUM NUM NUM pom model version NUM NUM NUM api works except CODEBLOCK route try accessing get blank page following console error warnings CODEBLOCK network monitor side everything succeed NUM status code except favicon fetch fail NUM status code CODEBLOCK version seems automatically chosen loading LINK automatically adds version url error varies based graphiql version version NUM NUM NUM CODEBLOCK version NUM NUM NUM CODEBLOCK CODEBLOCK content CODEBLOCK CODEBLOCK content CODEBLOCK tried following without success deleting maven cache cloning repos stack rebuilding everything updating wsl updating springboot framework NUM NUM NUM NUM NUM NUM updating windows NUM NUM rolling back known work version api building known work version api another physical machine red graphiql GitHub LINK LINK also update LINK seems done NUM days ago office closed past two weeks tell origin issue common point migration guide warning encountered refering CODEBLOCK deprecated source map think unwanted automatic update updated added dependency CODEBLOCK think control graphiql configuration spring project aside url thank",
+        "tags": [
+            "spring",
+            "spring-boot",
+            "graphql",
+            "graphiql",
+            "spring-graphql"
+        ]
+    },
+    {
+        "index": 61,
+        "question_id": 79621097,
+        "text": "use different certificates thread thread thread group use different certificates thread thread thread group jmeter example one cert first thread second cert second thread",
+        "tags": [
+            "java",
+            "jmeter"
+        ]
+    },
+    {
+        "index": 62,
+        "question_id": 79621196,
+        "text": "one sigint get queued others ignored signal handling testing unix signal behavior noticed something odd press ctrl sending sigint multiple times quickly handler still running sleeps NUM seconds two handler calls happen first one immediately second one first finishes sent signal four times one extra signal get handled others ignored thought standard signals queue additional ones skipped someone explain rules unix handles kind signal queuing yes use chatgpt write question english good enough CODEBLOCK",
+        "tags": [
+            "c",
+            "signals"
+        ]
+    },
+    {
+        "index": 63,
+        "question_id": 79621278,
+        "text": "next Tailwind css conflict breakpoints custom CSS classes defined breakpoints CODEBLOCK like CODEBLOCK CODEBLOCK created custom CSS classes like CODEBLOCK tried use custom classes combined breakpoints components responsive styles apply CODEBLOCK applied CODEBLOCK happening",
+        "tags": [
+            "next.js",
+            "tailwind-css",
+            "tailwind-css-4"
+        ]
+    },
+    {
+        "index": 64,
+        "question_id": 79621383,
+        "text": "wrap task task tresult without using async state machine want wrap CODEBLOCK CODEBLOCK without using async state machine preserving original task properties based LINK LINK consensus seems best least error prone way conversion awaiting non generic CODEBLOCK complete return certain CODEBLOCK something like CODEBLOCK alternative non async error free way achieving wrapping returned CODEBLOCK CODEBLOCK wrapped CODEBLOCK returned CODEBLOCK CODEBLOCK property original CODEBLOCK wrapping converting done asynchronously possible blocking conversion task",
+        "tags": [
+            "c#",
+            "asynchronous",
+            "async-await",
+            "task",
+            "task-parallel-library"
+        ]
+    },
+    {
+        "index": 65,
+        "question_id": 79621423,
+        "text": "passing parameters using reflection passing method name parameter multiple lines mocking method CODEBLOCK want make shorthand CODEBLOCK call CODEBLOCK wonder write body setup method tried CODEBLOCK want CODEBLOCK method many parameters NUM want avoid typing CODEBLOCK multiple times something like CODEBLOCK",
+        "tags": [
+            "moq",
+            "xunit",
+            "xunit.net"
+        ]
+    },
+    {
+        "index": 66,
+        "question_id": 79621433,
+        "text": "get backtracking technique solve large mazes developing backtracking function solve maze given matrix NUM NUM problem small matrices correctly finds shortest path matrices NUM NUM larger freezes nothing tried pruning various ways nothing solved larger mazes want using backtracking technique although know techniques efficient NUM possible directions works smaller mazes one example statistics number nodes visited promising high numbers think calculating execution time correctly either debug seems freeze inside loop recursive call maze solve function know CODEBLOCK also trying iterative solution without recursive call example input work would CODEBLOCK CODEBLOCK tried many times changing many things get work matrix large ones CODEBLOCK change wrong",
+        "tags": [
+            "c++",
+            "matrix",
+            "backtracking",
+            "maze"
+        ]
+    },
+    {
+        "index": 67,
+        "question_id": 79621451,
+        "text": "issue fentry bpf program attaching open system call attempting write tracing ebpf program using fentry attach type hook open system call minimal example CODEBLOCK however attempt load bpf program get following error CODEBLOCK seems bpf loader expects different function signature according kernel source open open syscall defined CODEBLOCK tried updating prototype explicitly include user like CODEBLOCK fails compile CODEBLOCK alternative tried attaching sys openat NUM using raw struct regs ctx approach CODEBLOCK version compiles loads without issue however try delegate helper function CODEBLOCK fails load time CODEBLOCK seems like passing struct regs helper function breaks verifier due incompatible unsafe context pointer heres reproducable example CODEBLOCK CODEBLOCK",
+        "tags": [
+            "ebpf"
+        ]
+    },
+    {
+        "index": 68,
+        "question_id": 79621497,
+        "text": "Perl best practices modifying array elements map using perlcritic check code trying avoid errors also trying minimize new code loops like foreach minimizing indentations etc found occasional CODEBLOCK help make code readable CODEBLOCK code works perfectly shown LINK however got following warning perlcritic bold modify list functions line NUM column NUM see page NUM pbp severity NUM read perl best practices examples author gave show CODEBLOCK bad choice modify arrays like much complex using map disregard warning perlcritic",
+        "tags": [
+            "perl",
+            "perl-critic"
+        ]
+    },
+    {
+        "index": 69,
+        "question_id": 79621559,
+        "text": "get centerline character using javascript want extract centerline character client side javascript ttf truetype fonts truetype fonts store characters NUM paths inner outer paths however need centerline character refer image trying achieve something similar LINK would implementing already able extract outer inner path fonts using opentype",
+        "tags": [
+            "javascript",
+            "svg",
+            "vector-graphics",
+            "truetype"
+        ]
+    },
+    {
+        "index": 70,
+        "question_id": 79621633,
+        "text": "workaround qlineedit bug android migrating code NUM NUM NUM NUM NUM NUM see regression CODEBLOCK content visible untill close virtual keyboard user friendly really need workaround issue reported since NUM NUM NUM resolved yet see LINK CODEBLOCK behave right LINK trying workaround catching event CODEBLOCK trying update CODEBLOCK CODEBLOCK work could anyone help setting valid workaround",
+        "tags": [
+            "android",
+            "c++",
+            "qt"
+        ]
+    },
+    {
+        "index": 71,
+        "question_id": 79621854,
+        "text": "compute cumulative mean std polars dataframe using want compute cumulative mean std polars dataframe column CODEBLOCK tried CODEBLOCK correctly gives CODEBLOCK however seems clunky becomes little complicated possibly error prone CODEBLOCK nicer possibly built version computing cum mean cum std",
+        "tags": [
+            "python",
+            "python-3.x",
+            "python-polars",
+            "cumulative-sum"
+        ]
+    },
+    {
+        "index": 72,
+        "question_id": 79621980,
+        "text": "making plotly subplots using crosstalk shareddata object would like make plotly subplots using CODEBLOCK object think NUM ways approach use CODEBLOCK faceted ggplot create subplot directly CODEBLOCK using CODEBLOCK grouped dataframe pass list subplots CODEBLOCK problems first approach CODEBLOCK blocks space facet levels even filtered data see image prefer making plots directly CODEBLOCK complex plots convert ggplot plotly nicely problems second approach know successfully directly pass CODEBLOCK object CODEBLOCK functions like CODEBLOCK documentation CODEBLOCK makes sound like extract filtered data using CODEBLOCK returns data regardless filter condition end LINK code CODEBLOCK generalization question use dplyr functions like CODEBLOCK CODEBLOCK CODEBLOCK object",
+        "tags": [
+            "r",
+            "plotly",
+            "crosstalk"
+        ]
+    },
+    {
+        "index": 73,
+        "question_id": 79622010,
+        "text": "animate dot path along two intertwined ellipses trying create small animation dot would smoothly along two intertwined ellipses like LINK managed create almost working path using online tool turn shapes single path CODEBLOCK CODEBLOCK course starting point ellipse different would want superposed instance little drawing questions would best simplest way way move ellipses starting point tried draw path successions arcs abc cfa adf fha manage math recreate ellipses really suck maths clue calculate key point coords thanks help",
+        "tags": [
+            "animation",
+            "math",
+            "svg",
+            "path",
+            "ellipse"
+        ]
+    },
+    {
+        "index": 74,
+        "question_id": 79622089,
+        "text": "Git diff files sometimes reports unchanged files modified prevent work tree sync index use CODEBLOCK inside script check working copy dirty following LINK usually works fine rarely reports true changes running CODEBLOCK reports modified files next CODEBLOCK also report modified files run CODEBLOCK CODEBLOCK consistently indicate working copy dirty use CODEBLOCK similar behaviour output shows results like many lines output possibly one every tracked file CODEBLOCK LINK says NUM NUM deletion unmerged work tree sync index since CODEBLOCK resolves presumably problem work tree sync index make tooling reliable without always running CODEBLOCK CODEBLOCK appear take CODEBLOCK option",
+        "tags": [
+            "git",
+            "git-plumbing"
+        ]
+    },
+    {
+        "index": 75,
+        "question_id": 79622090,
+        "text": "constexpr device variables accessible host colleague came across LINK global CODEBLOCK variables accessible host device CODEBLOCK output run looks reasonable CODEBLOCK situation related LINK however unlike case know variable value compile time current situation well defined",
+        "tags": [
+            "c++",
+            "cuda",
+            "constexpr",
+            "nvcc"
+        ]
+    },
+    {
+        "index": 76,
+        "question_id": 79622175,
+        "text": "get tab value suggestions dynamically without throwing error user provided value exist lets say two functions CODEBLOCK CODEBLOCK using read edit tree structure resource really nothing sophisticated using file system implement structure issue CODEBLOCK works want force user input values found tree structure issue CODEBLOCK working want would like values tree structure suggested similar CODEBLOCK user must able input arbitrary values extend structure currently CODEBLOCK throw error value exist code CODEBLOCK CODEBLOCK CODEBLOCK CODEBLOCK parameter user expected provide name functions check directory CODEBLOCK valid names example CODEBLOCK follows CODEBLOCK CODEBLOCK auto competition examples would CODEBLOCK CODEBLOCK CODEBLOCK CODEBLOCK throw error value CODEBLOCK already exist mechanism use still get dynamic autocompletion without error checked parameter attribute section reading CODEBLOCK seems applicable pwsh NUM NUM edit made slight edit CODEBLOCK CODEBLOCK parameter using validateset class CODEBLOCK using validateset class",
+        "tags": [
+            "powershell",
+            "tab-completion"
+        ]
+    },
+    {
+        "index": 77,
+        "question_id": 79622224,
+        "text": "display two blank paragraphs small screens add double space paragraph text display two blank paragraphs small screens add double space paragraph text following creates single space paragraph text CSS HTML CODEBLOCK CODEBLOCK",
+        "tags": [
+            "paragraph"
+        ]
+    },
+    {
+        "index": 78,
+        "question_id": 79622239,
+        "text": "charsetdecoder directbytebuffer heapbytebuffer performance difference use case following reading directbytebuffers network decoding utf NUM strings observed using utf NUM charsetdecoder directbytebuffer NUM NUM times slower heapbytebuffer understand due intrinsic optimizations ascii input described LINK LINK brings couple questions optimizations applied directbytebuffer well intrinsic implementation possible case would reasonable approach copy contents directbytebuffer heapbytebuffer NUM chunks decoding noticed leads lower decode latency though assume comes cost increased cpu usage small example CODEBLOCK",
+        "tags": [
+            "kotlin",
+            "character-encoding",
+            "bytebuffer"
+        ]
+    },
+    {
+        "index": 79,
+        "question_id": 79622285,
+        "text": "downcasting float NUM displays additional precision numbers polars dont exists source file data whenever downcast column float NUM float NUM seems polars adds extra precision numbers display output didnt even exist compare actual values seem match display setting throws checks done naked eye know display config fix limit precision points displaying data curious happens first place random numbers added padding first noticed reading data csv file schema overrides data seemed read printed polars compared csv file opened text editor CODEBLOCK expected expected casted values look maybe padded zeros instead random numbers CODEBLOCK",
+        "tags": [
+            "python",
+            "python-polars"
+        ]
+    },
+    {
+        "index": 80,
+        "question_id": 79622310,
+        "text": "loading CSV data box javascript regularly updated CSV files box would like display website plan create table html read CSV file NUM update contents table CSV data github could something like CODEBLOCK however seem work box url generate url data box format https xxxxxxxx box com shared static xxxxxxxxx csv going link directly download CSV file inserting code produces cross origin request blocked error possible since CSV files update hourly would best could read directly box website rather moving data elsewhere",
+        "tags": [
+            "javascript",
+            "html",
+            "csv",
+            "d3.js"
+        ]
+    },
+    {
+        "index": 81,
+        "question_id": 79622313,
+        "text": "C++ log method capturing source line variadic arguments trying write logging function instead macro variadic arguments formatting still captures source location caller CODEBLOCK called via CODEBLOCK get CODEBLOCK done",
+        "tags": [
+            "c++"
+        ]
+    },
+    {
+        "index": 82,
+        "question_id": 79622326,
+        "text": "C++ format string compile time validity check trying implement C++ CODEBLOCK function localization CODEBLOCK invoked CODEBLOCK lookup language package return localized string CODEBLOCK CODEBLOCK guaranteed compile time string CODEBLOCK type may need changed practice developers may provide mismatching number parameters missing CODEBLOCK providing parameters think necessary add check mechanism ensure CODEBLOCK beginning used CODEBLOCK CODEBLOCK failed static assertion expression integral constant expression learned LINK directly use assert CODEBLOCK functions works however gpt said recommended call CODEBLOCK CODEBLOCK functions sure since compiles clang msvc recomended could better implementation CODEBLOCK comes tricky part tried use checker CODEBLOCK unfortunately work CODEBLOCK passed parameter longer guaranteed compile time constant CODEBLOCK",
+        "tags": [
+            "c++",
+            "c++20",
+            "compile-time-constant",
+            "compile-time-type-checking"
+        ]
+    },
+    {
+        "index": 83,
+        "question_id": 79622426,
+        "text": "duration iszero return false yet duration tomillis returns zero order calculate wait duration math durations CODEBLOCK obviously code distills basics question seeing testing argument passed wait zero",
+        "tags": [
+            "java"
+        ]
+    },
+    {
+        "index": 84,
+        "question_id": 79622512,
+        "text": "move facet label left make space legend using facet wrap need move axis table left NUM axis lable make room legend wondering possible code image trying achieve LINK CODEBLOCK",
+        "tags": [
+            "r",
+            "ggplot2",
+            "grid",
+            "label",
+            "facet"
+        ]
+    },
+    {
+        "index": 85,
+        "question_id": 79622648,
+        "text": "invalid version NUM NUM NUM must match format NUM NUM unknown directive toolchain error working old version ignite cli NUM NUM NUM got error every time ran CODEBLOCK CODEBLOCK tried change CODEBLOCK CODEBLOCK CODEBLOCK file CODEBLOCK CODEBLOCK always reverted CODEBLOCK threw error using macos CODEBLOCK",
+        "tags": [
+            "go"
+        ]
+    },
+    {
+        "index": 86,
+        "question_id": 79622673,
+        "text": "able understand mutablity comes mutable refferences recently started learning rust LINK learning ownership came following piece code CODEBLOCK confused using mut keyword NUM use mut keyword signify still able modify content CODEBLOCK",
+        "tags": [
+            "rust"
+        ]
+    },
+    {
+        "index": 87,
+        "question_id": 79622807,
+        "text": "advantage using opentelemetry azuremonitor instead applicationinsights directly advantage using intermediary layer opentelemetry instead directly applicationinsights example CODEBLOCK instead CODEBLOCK already logging abstraction built .NET CODEBLOCK CODEBLOCK allows easily switch different logging libraries without changing application code missing point opentelemetry layer",
+        "tags": [
+            ".net",
+            "logging",
+            "azure-application-insights",
+            "open-telemetry"
+        ]
+    },
+    {
+        "index": 88,
+        "question_id": 79623014,
+        "text": "pythonic way append function output existing lists two functions return tuple lists pythonic way merge using tmp vars moment find bit awkward maybe one line solution existing code reduced bare minimum CODEBLOCK want merge check methods check completely different aspects project first approach CODEBLOCK tried following find harder read hence question pythonic solution CODEBLOCK better ideas",
         "tags": [
             "python"
         ]
     },
     {
-        "index": 42,
-        "question_id": 79604844,
-        "text": "transforming string octal value ooo isnt working use string variable inside using backslash followed three integers Python interprets octal value CODEBLOCK however try replace octal sequence variable inside CODEBLOCK using string like CODEBLOCK output CODEBLOCK instead CODEBLOCK Python treat variable CODEBLOCK differently inside string correctly substitute variable octal escape sequence",
+        "index": 89,
+        "question_id": 79623104,
+        "text": "spotlight finds titles contentdescription using appintents corespotlight ios NUM implementing spotlight search notes app using ios NUM appintents corespotlight notes indexed transcript aisummary fields assigned contentdescription textcontent appearing search results current implementation indexing setup CODEBLOCK problem spotlight finds titles transcript aisummary content question spotlight support search content description would really appreciate input",
         "tags": [
-            "python-3.x",
-            "variables",
-            "transform",
-            "f-string",
-            "octal"
+            "ios",
+            "ios18",
+            "appintents",
+            "corespotlight"
         ]
     },
     {
-        "index": 43,
-        "question_id": 79604852,
-        "text": "openmp openmp api school assignment need precise definition openmp find wikipedia sources defective specificaly need understand difference openmp openmp api far read openmp api collection directives library routines environment variables two used interchangably perhaps",
-        "tags": [
-            "c",
-            "multithreading",
-            "openmp"
-        ]
-    },
-    {
-        "index": 44,
-        "question_id": 79604871,
-        "text": "refresh inotifywait something similar first let give background security cameras trigger motion detection dump avi file via ftp server currently cron job running every minute find avi files convert NUM animated gif show html gallery wanted something immediate without scan directories missing avi files tried use inotifywait found problem new day first motion detected new folder created current date inotifywait watch idea folder created since depends motion captured camera question way refresh inotifywait add missing folders way kill process restart another way achieve want something immediate find every minute edit quick note reason wanted something faster folders find takes almost NUM scan directories",
-        "tags": [
-            "shell",
-            "inotifywait"
-        ]
-    },
-    {
-        "index": 45,
-        "question_id": 79604883,
-        "text": "anything need make session data persistent across routes Flask working Flask project react front end completed authentication work tried access user stored session user data another route via axios request able access said data found session encountered like resolve add withcredentials true along axios request tried nothing worked even made custom flask route gets session data prints something like data expected printed data tried print session data login route right creating works route session created stored shared across routes also share required code CODEBLOCK anything missing",
-        "tags": [
-            "python",
-            "flask",
-            "session",
-            "flask-session"
-        ]
-    },
-    {
-        "index": 46,
-        "question_id": 79604901,
-        "text": "surrounding whitespace separated urls quotes using sed problem trying get CODEBLOCK command thing could Python regex flavour encountered problems Python regex example tested regex NUM working fine find CODEBLOCK replace CODEBLOCK unsuccessful code CODEBLOCK elenco txt file CODEBLOCK expected output CODEBLOCK actual output CODEBLOCK info name CODEBLOCK version CODEBLOCK installed CODEBLOCK CODEBLOCK always avoided using posix regex etc found unnecessarily complicated limited compared using perl python etc regex flavour available options install perl python NUM strawberryperl perl windows seems quite overkill useless bloat access perl flavour regex CODEBLOCK unlike CODEBLOCK doen support easy regex LINK",
-        "tags": [
-            "python",
-            "regex",
-            "windows",
-            "sed"
-        ]
-    },
-    {
-        "index": 47,
-        "question_id": 79604939,
-        "text": "react render promises within returned jsx code CODEBLOCK CODEBLOCK endpoint sleeps NUM seconds returns fastapi code CODEBLOCK surprises tsx code works click button NUM delay response text appears would expected react return error cannot render object type promise something react using react NUM",
-        "tags": [
-            "javascript",
-            "reactjs"
-        ]
-    },
-    {
-        "index": 48,
-        "question_id": 79604963,
-        "text": "cake eat sequences polymorphic value types designing certain part library considering whether use polymorphic value types kind know motivation might see first several paragraphs LINK sean parent LINK talk perhaps klaus ingleberger LINK CODEBLOCK class hierarchy structures among things anyway basic scenario two prospective classes share commonality prospective data members methods code yet written play layout choose inherit anything decide padding extra members etc use need pass contiguous sequence items either function CODEBLOCK let assume sequence passed CODEBLOCK keep things simple could using inheritance reference types define class commonality inherit pass sequence pointers CODEBLOCK work would need construct sequence pointers even example vector worse users likely tasked construction alternatively could use sean parent style polymorphic value types going heap allocation every object moreover look raw memory vector uses see would seeing pointer data maybe deleter data say CODEBLOCK somewhere pass CODEBLOCK directly recasting extracting CODEBLOCK etc would construct separate input CODEBLOCK third alternative might using CODEBLOCK objects type polymorphic code CODEBLOCK would able treat elements uniformly would need unpack peer within value rather avoid want eat cake want pass CODEBLOCK CODEBLOCK CODEBLOCK become template CODEBLOCK must concrete type physical memory CODEBLOCK vector passing contain physical representations perform per element heap allocation hopefully able interpret CODEBLOCK CODEBLOCK CODEBLOCK undefined behavior pipe dream possible notes specify C++ standard version answer yes try using earliest standard version possible opinion please say version relying LINK asks eating less cake mine sean parent approach valid answer case",
+        "index": 90,
+        "question_id": 79623161,
+        "text": "unique pointer free memory let say allocate object pass address windows message posted sent message handler address recovered used initialize CODEBLOCK smart pointer destructor delete object CODEBLOCK handler method CODEBLOCK object deleted CODEBLOCK returns",
         "tags": [
             "c++",
-            "inheritance",
-            "polymorphism",
-            "parameter-passing",
-            "value-type"
+            "winapi",
+            "mfc",
+            "smart-pointers",
+            "unique-ptr"
         ]
     },
     {
-        "index": 49,
-        "question_id": 79604979,
-        "text": "condensing query single better formatted query trying combine four separate queries one query without success CODEBLOCK condense better formatted query get results",
+        "index": 91,
+        "question_id": 79623372,
+        "text": "list visible products specific product category woocommerce want simply display products specific product category smart shoes term slug woocommerce website want visible products category listed code CODEBLOCK far code using list categories products even hidden ones insights googling tinkering hours without success",
         "tags": [
-            "mysql"
+            "php",
+            "wordpress",
+            "woocommerce",
+            "product",
+            "custom-taxonomy"
         ]
     },
     {
-        "index": 50,
-        "question_id": 79604983,
-        "text": "axis scale night data collected night timestamps would like plot axis runs NUM NUM figure dummy data CODEBLOCK know make LINK bad paint version want LINK",
+        "index": 92,
+        "question_id": 79623404,
+        "text": "hide show shinywidgets dropdown shinyjs way hide shinywidgets dropdown shinyjs since dropdown argument thought could hidden shown like input somehow working find minimal reprex CODEBLOCK",
+        "tags": [
+            "r",
+            "shiny",
+            "shinyjs",
+            "shinywidgets"
+        ]
+    },
+    {
+        "index": 93,
+        "question_id": 79623523,
+        "text": "add column names retrieved data pymysql simple SQL command via pymsql retrieve data CODEBLOCK return array tuples CODEBLOCK first tuple column names CODEBLOCK thought quite obvious looking similar LINK different output format specified",
+        "tags": [
+            "python",
+            "pymysql"
+        ]
+    },
+    {
+        "index": 94,
+        "question_id": 79623635,
+        "text": "difference cloning mpsc sender wrapping arc sharing threads building Rust client includes sender field CODEBLOCK share client threads wrapped CODEBLOCK used CODEBLOCK pass handles around later realized CODEBLOCK cheaply cloneable via CODEBLOCK wondering missed something fundamental illustrate question consider following simplified example CODEBLOCK approaches seem let multiple threads send messages concurrently practical semantic difference cloning sender CODEBLOCK versus sharing single sender via CODEBLOCK approach preferred cloning right choice rewrite CODEBLOCK struct use CODEBLOCK CODEBLOCK sharing handles",
+        "tags": [
+            "rust",
+            "rust-tokio"
+        ]
+    },
+    {
+        "index": 95,
+        "question_id": 79623641,
+        "text": "properly combine two ggplots properly align axis strips titles need combine two ggplots labels used publication first plot CODEBLOCK code CODEBLOCK plot got combined plot two issues label aligned dimension plots aligned interestingly second plot title correct position",
         "tags": [
             "r",
             "ggplot2",
-            "timeserieschart"
+            "patchwork"
+        ]
+    },
+    {
+        "index": 96,
+        "question_id": 79623642,
+        "text": "Python threading tkinter event set terminate thread bound window closing writing app generates live histogram displayed tkinter window less app works CODEBLOCK class responsible generating embedded histogram inside window collecting data update histogram accordingly start button creates thread responsible collecting data points putting queue calling CODEBLOCK function pulls new data queue redraws histogram since function thread runs loop indefinitely also stop button stops loop setting CODEBLOCK CODEBLOCK function called button also called trying close window thread running issue even CODEBLOCK function called clicking button upon closing window try close window run app freezes CODEBLOCK returns CODEBLOCK first click stop button close window CODEBLOCK returns CODEBLOCK wrong mwe CODEBLOCK note NUM reason went fairly complicated setup learned loop run main thread cause tkinter mainloop freeze interact widget loop running note NUM pretty sure exactly accepted answer says LINK work driving crazy days thank advance",
+        "tags": [
+            "python",
+            "multithreading",
+            "tkinter",
+            "python-multithreading",
+            "matplotlib-widget"
+        ]
+    },
+    {
+        "index": 97,
+        "question_id": 79623661,
+        "text": "stop eclipse formatter indenting formatting second time using eclipse formatter run issue removes indents line wrapping second save example write code CODEBLOCK format exaggerated line limit CODEBLOCK change something else file format removes line wrapping indentation original unchanged code CODEBLOCK tried messing settings find could stop expecting stay line wrapped indentation wrapped lines seen first formatting want use tags think bulky option formatter stop clarification using stm NUM cubeide version NUM NUM NUM using modified built profile formatter looks like issue unmodified profile well",
+        "tags": [
+            "c",
+            "eclipse",
+            "eclipse-cdt"
+        ]
+    },
+    {
+        "index": 98,
+        "question_id": 79623671,
+        "text": "find largest itemset agroup itemsets support efficiently spark dataframe two columns items items list strings goal find frequent subsets itemsets data familiar apriori growth used latter find frequent subsets one requirement cases multiple itemsets along path tree support want keep largest itemset example support thus interested keeping latter even principal problem simplest solution grouping itemsets support selecting one items delete subsets set problem number possible combinations extremly large NUM different items itemsets NUM items question anyway make efficient basic example initially CODEBLOCK gives result CODEBLOCK group data frequency CODEBLOCK next frequency remove itemsets subsets another itemset frequency instance remove first row subsets code best hope get idea CODEBLOCK results looks like CODEBLOCK fine runs small dataset issue number items around NUM thus number combinations extremly large fpgrowth delivered results next step removing subsets crashes run memory tried batching looking one frequency time even problem many itemsets frequency process well",
+        "tags": [
+            "python",
+            "algorithm",
+            "pyspark",
+            "data-mining",
+            "fpgrowth"
+        ]
+    },
+    {
+        "index": 99,
+        "question_id": 79623834,
+        "text": "spring repository find related table two models written kotlin CODEBLOCK second one one one relation previos one CODEBLOCK brepository method fetch instance related model CODEBLOCK recently worked correctly trying upgrade app spring NUM NUM latest version hibernate suddenly problem method repository longer finds model change implemented change type fields long default null deleage hibernate actual value generation read need found workaround repository method annotate CODEBLOCK suddenly need way obtain result without cumbersome annotation",
+        "tags": [
+            "java",
+            "spring",
+            "kotlin",
+            "hibernate"
+        ]
+    },
+    {
+        "index": 100,
+        "question_id": 79623886,
+        "text": "express trait bound static str trying implement something like CODEBLOCK use strum macros generate CODEBLOCK use generic parameter enum variant strum requires CODEBLOCK R needs implement CODEBLOCK conversion adding high level bound CODEBLOCK CODEBLOCK hit recursion limit CODEBLOCK bit loss define trait enum requirement strum happy",
+        "tags": [
+            "rust"
         ]
     }
 ]
