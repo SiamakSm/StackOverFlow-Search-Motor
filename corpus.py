@@ -178,7 +178,7 @@ class SearchEngine:
         self.tf = self._TF_Matrix()
         self.idf = self._IDF_Matrix()
         self.tfidf = self.tf * self.idf
-        self.doc_norms = self._compute_norms(self.tfidf)      ###############################
+        self.doc_norms = self._norms(self.tfidf)      
   
 
     def _load_json(self, path):
@@ -199,7 +199,7 @@ class SearchEngine:
         return vocab
                 
     def _TF_Matrix(self):
-        tf = np.zeros(len(self.docs) ,len(self.vocab))
+        tf = np.zeros((len(self.docs), len(self.vocab)))
         for i , doc in enumerate(self.docs):
             for word in doc :
                 tf[i , self.vocab[word]] += 1
@@ -214,3 +214,24 @@ class SearchEngine:
                     df[idx] += 1 
         return np.log((N+1)/(df+1)) +1
 
+    def _norms(self, matrix):
+        return np.linalg.norm(matrix,axis=1)
+        
+    def _vectorise_query(self,query):
+        tokens = query.split()
+        vec = np.zeros(len(self.vocab))
+        for token in tokens :
+            if token in self.vocab :
+                vec[self.vocab[token]] += 1
+        return vec * self.idf
+    
+    def _search(self, query):
+        query_vec = self._vectorise_query(query)
+        query_norm = np.linalg.norm(query_vec)
+        similarities = []
+        for i, doc_vec in enumerate(self.tfidf):
+            dot_product = np.dot(query_vec, doc_vec)
+            denom = query_norm * self.doc_norms[i]
+            score = dot_product / denom if denom != 0 else 0.0
+            similarities.append((self.doc_ids[i], score))           
+        return similarities

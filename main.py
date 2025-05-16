@@ -51,6 +51,7 @@ def main():
     #corpusObjet.wordsFrequency()
     print("-------------------------------------------------------------")
     print("-----------------    SearchEngine    -----------------\n")
-        
+    print(motorObjet._search("Python dataframe"))
+    
 if __name__ == "__main__":
     main()
