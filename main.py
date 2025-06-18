@@ -47,7 +47,7 @@ def main():
     print("-------------------------------------------------------------")
     print("-----------------    SearchEngine    -----------------\n")
     motorObjet = SearchEngine()
-    results = motorObjet._search("library making python list")
+    results = motorObjet._search("python")
     for doc_id, score in results:
         print(f"Document ID: {doc_id} → Similarité : {score:.3f}")
     
